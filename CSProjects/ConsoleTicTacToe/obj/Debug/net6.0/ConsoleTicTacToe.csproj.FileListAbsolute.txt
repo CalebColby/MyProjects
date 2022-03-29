@@ -1,0 +1,15 @@
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\ConsoleTicTacToe\bin\Debug\net6.0\ConsoleTicTacToe.exe
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\ConsoleTicTacToe\bin\Debug\net6.0\ConsoleTicTacToe.deps.json
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\ConsoleTicTacToe\bin\Debug\net6.0\ConsoleTicTacToe.runtimeconfig.json
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\ConsoleTicTacToe\bin\Debug\net6.0\ConsoleTicTacToe.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\ConsoleTicTacToe\bin\Debug\net6.0\ConsoleTicTacToe.pdb
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\ConsoleTicTacToe\obj\Debug\net6.0\ConsoleTicTacToe.csproj.AssemblyReference.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\ConsoleTicTacToe\obj\Debug\net6.0\ConsoleTicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\ConsoleTicTacToe\obj\Debug\net6.0\ConsoleTicTacToe.AssemblyInfoInputs.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\ConsoleTicTacToe\obj\Debug\net6.0\ConsoleTicTacToe.AssemblyInfo.cs
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\ConsoleTicTacToe\obj\Debug\net6.0\ConsoleTicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\ConsoleTicTacToe\obj\Debug\net6.0\ConsoleTicTacToe.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\ConsoleTicTacToe\obj\Debug\net6.0\refint\ConsoleTicTacToe.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\ConsoleTicTacToe\obj\Debug\net6.0\ConsoleTicTacToe.pdb
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\ConsoleTicTacToe\obj\Debug\net6.0\ConsoleTicTacToe.genruntimeconfig.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\ConsoleTicTacToe\obj\Debug\net6.0\ref\ConsoleTicTacToe.dll
