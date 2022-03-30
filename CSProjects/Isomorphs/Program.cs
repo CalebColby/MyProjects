@@ -6,7 +6,7 @@
     }
 
 
-    string[] getIsoStringsFromFile()
+    private static string[] getIsoStringsFromFile()
     {
         do
         {
@@ -21,9 +21,9 @@
         } while (true);
     }
 
-    void writeToFileAndConsole()
+   private static void writeToFileAndConsole()
     {
-        String filepath = Path.;
+        
     }
 
 }
