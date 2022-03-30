@@ -1,12 +1,12 @@
 ﻿
-String[] getIsoStringsFromFile()
+string[] getIsoStringsFromFile()
 {
     do 
     {
-        Console.WriteLine("Give a file path:");
+        Console.WriteLine("Give me a file path:");
         try
         {
-            String filePath = Console.ReadLine();
+            string filePath = Console.ReadLine();
             return System.IO.File.ReadAllLines(filePath);
         }  catch(FileNotFoundException fnfe) {
             Console.WriteLine("Invalid File Path Given.\nCouldn't Find File.\nPlease Give a Valid File Path\n");
@@ -14,4 +14,7 @@ String[] getIsoStringsFromFile()
     } while (true);
 }
 
-
+void writeToFileAndConsole()
+{
+    String filepath = Path.;
+}
