@@ -2,8 +2,9 @@
 {
     public static void Main(string[] args)
     {
-
+        getIsoStringsFromFile();
     }
+
 
     string[] getIsoStringsFromFile()
     {
