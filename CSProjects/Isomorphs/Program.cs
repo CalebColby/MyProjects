@@ -1,29 +1,34 @@
-﻿class Program
+﻿namespace Isomorphs
 {
-    public static void Main(string[] args)
+    class Program
     {
-        getIsoStringsFromFile();
-    }
-
-
-    private static string[] getIsoStringsFromFile()
-    {
-        do
+        public static void Main()
         {
-            Console.WriteLine("Give me a file path:");
-            try
+            string[] items = getIsoStringsFromFile();
+        }
+
+
+        private static string[] getIsoStringsFromFile()
+        {
+            do
             {
-                string filePath = Console.ReadLine();
-                return System.IO.File.ReadAllLines(filePath);
-            } catch (FileNotFoundException fnfe) {
-                Console.WriteLine("Invalid File Path Given.\nCouldn't Find File.\nPlease Give a Valid File Path\n");
-            }
-        } while (true);
-    }
+                Console.WriteLine("Give me a file path:");
+                try
+                {
+                    string filePath = Console.ReadLine();
+                    return System.IO.File.ReadAllLines(filePath);
+                }
+                catch (FileNotFoundException fnfe)
+                {
+                    Console.WriteLine("Invalid File Path Given.\nCouldn't Find File.\nPlease Give a Valid File Path\n");
+                }
+            } while (true);
+        }
 
-   private static void writeToFileAndConsole()
-    {
-        
-    }
+        private static void writeToFileAndConsole()
+        {
+            
+        }
 
+    }
 }
