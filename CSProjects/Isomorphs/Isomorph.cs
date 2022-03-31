@@ -34,10 +34,18 @@ namespace Isomorphs
             return isoSign;
         }
 
+        private static List<int> generateLooseIsoSign(List<int> isoSign)
+        {
+            List<int> looseIsoSign = new List<int>();
+
+            return looseIsoSign;
+        }
+
         public void setIsoWord(string isoWord)
         {
             this.isoWord = isoWord ?? throw new ArgumentNullException();
-            this.isoSign = generateIsoSign(isoWord);
+            this.isoSign = generateIsoSign(this.getIsoWord());
+            this.looseIsoSign = generateLooseIsoSign(this.getIsoSign()); 
         }
         public Isomorph(string isoWord)
         {
