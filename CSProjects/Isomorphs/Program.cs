@@ -21,28 +21,84 @@
         private static string generateExactString(List<Isomorph> words)
         {
             Dictionary<string, List<Isomorph>> ExactIsos = new Dictionary<string, List<Isomorph>>();
+            foreach (Isomorph iso in words)
+            {
+                if (!ExactIsos.ContainsKey(iso.getIsoSign()))
+                    ExactIsos.Add(iso.getIsoSign(), new List<Isomorph>());
 
-            string output = "Exact Isomorphs\n\n";
+                ExactIsos[iso.getIsoSign()].Add(iso);
+            }
+
+            string output = "Exact Isomorphs\n";
+
+            foreach (var isos in ExactIsos)
+            {
+                List<Isomorph> isoList = isos.Value;
+                if(isoList.Count > 1)
+                {
+                    output = $"{output}\n{isos.Key}:";
+                    foreach(Isomorph iso in isoList)
+                    {
+                        output = $"{output} {iso.getIsoWord()}";
+                    }
+                }
+            }
 
             return output + "\n\n";
         }
-
+        
         private static string generateLooseString(List<Isomorph> words)
         {
             Dictionary<string, List<Isomorph>> LooseIsos = new Dictionary<string, List<Isomorph>>();
+            foreach (Isomorph iso in words)
+            {
+                if (!LooseIsos.ContainsKey(iso.getLooseIsoSign()))
+                    LooseIsos.Add(iso.getLooseIsoSign(), new List<Isomorph>());
 
-            string output = "Loose Isomorphs\n\n";
+                LooseIsos[iso.getLooseIsoSign()].Add(iso);
+            }
 
+            string output = "Loose Isomorphs\n";
+            foreach (var isos in LooseIsos)
+            {
+                List<Isomorph> isoList = isos.Value;
+                if (isoList.Count > 1)
+                {
+                    output = $"{output}\n{isos.Key}:";
+                    foreach (Isomorph iso in isoList)
+                    {
+                        output = $"{output} {iso.getIsoWord()}";
+                    }
+                }
+            }
             return output + "\n\n";
         }
         
         private static string generateNonString(List<Isomorph> words)
         {
-            string output = "Non-Isomorphs\n\n";
+            Dictionary<string, List<Isomorph>> LooseIsos = new Dictionary<string, List<Isomorph>>();
+            foreach (Isomorph iso in words)
+            {
+                if (!LooseIsos.ContainsKey(iso.getLooseIsoSign()))
+                    LooseIsos.Add(iso.getLooseIsoSign(), new List<Isomorph>());
 
+                LooseIsos[iso.getLooseIsoSign()].Add(iso);
+            }
+            string output = "Non-Isomorphs\n";
+            foreach (var isos in LooseIsos)
+            {
+                List<Isomorph> isoList = isos.Value;
+                if (isoList.Count == 1)
+                {
+                    foreach (Isomorph iso in isoList)
+                    {
+                        output = $"{output} {iso.getIsoWord()}";
+                    }
+                }
+            }
             return output;
         }
-
+        
 
         private static string[] getIsoStringsFromFile()
         {

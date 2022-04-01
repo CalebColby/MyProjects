@@ -60,7 +60,7 @@ namespace Isomorphs
         {
             this.isoWord = isoWord ?? throw new ArgumentNullException();
             this.isoSign = generateIsoSign(this.getIsoWord());
-            this.looseIsoSign = generateLooseIsoSign(this.getIsoSign()); 
+            this.looseIsoSign = generateLooseIsoSign(this.isoSign); 
         }
         public Isomorph(string isoWord)
         {
