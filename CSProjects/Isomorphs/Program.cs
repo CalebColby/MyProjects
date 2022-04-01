@@ -5,6 +5,11 @@
         public static void Main()
         {
             string[] items = getIsoStringsFromFile();
+            List<Isomorph> words = new List<Isomorph>();
+            foreach (string item in items)
+            {
+                words.Add(new Isomorph(item));
+            }
         }
 
 
@@ -25,7 +30,7 @@
             } while (true);
         }
 
-        private static void writeToFileAndConsole()
+        private static void writeToFileAndConsole(string saveString)
         {
             
         }

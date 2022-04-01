@@ -77,6 +77,8 @@ namespace Isomorphs
                 }
                 looseIsoSign[i]++;
             }
+            looseIsoSign = looseIsoSign.OrderBy(i => i).ToList();
+
 
             return looseIsoSign;
         }
