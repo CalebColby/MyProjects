@@ -13,8 +13,30 @@ namespace Isomorphs
         private List<int> looseIsoSign;
 
         public string getIsoWord() { return this.isoWord; }
-        public List<int> getIsoSign() { return this.isoSign; }
-        public List<int> getLooseIsoSign() { return this.looseIsoSign; }
+        public string getIsoSign()
+        {
+            string output = "";
+
+            foreach (int i in isoSign)
+            {
+                output = output + i.ToString() + " ";
+            }
+
+            return output.Trim();
+        }
+        
+        public string getLooseIsoSign()
+        {
+            string output = "";
+
+            foreach (int i in looseIsoSign)
+            {
+                output = output + i.ToString() + " ";
+            }
+
+            return output.Trim();
+        }
+        
         
         public bool compareIsoSign(List<int> other)
         {
