@@ -1,0 +1,15 @@
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\BigO\bin\Debug\net6.0\BigO.exe
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\BigO\bin\Debug\net6.0\BigO.deps.json
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\BigO\bin\Debug\net6.0\BigO.runtimeconfig.json
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\BigO\bin\Debug\net6.0\BigO.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\BigO\bin\Debug\net6.0\BigO.pdb
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\BigO\obj\Debug\net6.0\BigO.csproj.AssemblyReference.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\BigO\obj\Debug\net6.0\BigO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\BigO\obj\Debug\net6.0\BigO.AssemblyInfoInputs.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\BigO\obj\Debug\net6.0\BigO.AssemblyInfo.cs
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\BigO\obj\Debug\net6.0\BigO.csproj.CoreCompileInputs.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\BigO\obj\Debug\net6.0\BigO.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\BigO\obj\Debug\net6.0\refint\BigO.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\BigO\obj\Debug\net6.0\BigO.pdb
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\BigO\obj\Debug\net6.0\BigO.genruntimeconfig.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\BigO\obj\Debug\net6.0\ref\BigO.dll
