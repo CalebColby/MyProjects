@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingLibrary", "SortingLi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Util", "Util\Util.csproj", "{E60EEF41-C685-4415-B261-EF685537CFC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsDemo", "WinFormsDemo\WinFormsDemo.csproj", "{593765DA-31B9-4423-A95A-44D8BBDF4BFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{E60EEF41-C685-4415-B261-EF685537CFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E60EEF41-C685-4415-B261-EF685537CFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E60EEF41-C685-4415-B261-EF685537CFC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593765DA-31B9-4423-A95A-44D8BBDF4BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593765DA-31B9-4423-A95A-44D8BBDF4BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593765DA-31B9-4423-A95A-44D8BBDF4BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593765DA-31B9-4423-A95A-44D8BBDF4BFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{ABBAA331-A102-45A0-9922-DB6C70BE50E4} = {C7451874-03A3-4BB1-857A-855139B1F7F1}
 		{6402A307-A4FB-4F6B-A2E8-96293965985E} = {B538AA94-1ABB-48ED-B627-897764396B33}
 		{E60EEF41-C685-4415-B261-EF685537CFC7} = {A4E428BD-7181-4701-8589-90494D226132}
+		{593765DA-31B9-4423-A95A-44D8BBDF4BFA} = {F80790CB-3EDC-4C7D-B914-BD99DC8208C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1591692D-D832-463B-BA61-45581B07E5D0}

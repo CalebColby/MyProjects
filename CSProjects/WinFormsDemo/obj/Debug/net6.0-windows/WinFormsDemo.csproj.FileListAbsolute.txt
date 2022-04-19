@@ -1,0 +1,17 @@
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\bin\Debug\net6.0-windows\WinFormsDemo.exe
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\bin\Debug\net6.0-windows\WinFormsDemo.deps.json
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\bin\Debug\net6.0-windows\WinFormsDemo.runtimeconfig.json
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\bin\Debug\net6.0-windows\WinFormsDemo.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\bin\Debug\net6.0-windows\WinFormsDemo.pdb
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\obj\Debug\net6.0-windows\WinFormsDemo.csproj.AssemblyReference.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\obj\Debug\net6.0-windows\WinFormsDemo.Form1.resources
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\obj\Debug\net6.0-windows\WinFormsDemo.csproj.GenerateResource.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\obj\Debug\net6.0-windows\WinFormsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\obj\Debug\net6.0-windows\WinFormsDemo.AssemblyInfoInputs.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\obj\Debug\net6.0-windows\WinFormsDemo.AssemblyInfo.cs
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\obj\Debug\net6.0-windows\WinFormsDemo.csproj.CoreCompileInputs.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\obj\Debug\net6.0-windows\WinFormsDemo.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\obj\Debug\net6.0-windows\refint\WinFormsDemo.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\obj\Debug\net6.0-windows\WinFormsDemo.pdb
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\obj\Debug\net6.0-windows\WinFormsDemo.genruntimeconfig.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\WinFormsDemo\obj\Debug\net6.0-windows\ref\WinFormsDemo.dll
