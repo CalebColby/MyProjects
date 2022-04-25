@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars", "CodeWars\CodeWars.csproj", "{518798A0-31A0-4FF3-A33F-1CF479958CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starter", "Starter\Starter.csproj", "{7320C7BA-7778-47C0-882D-C810B5B1FA51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{518798A0-31A0-4FF3-A33F-1CF479958CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{518798A0-31A0-4FF3-A33F-1CF479958CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{518798A0-31A0-4FF3-A33F-1CF479958CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{518798A0-31A0-4FF3-A33F-1CF479958CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7320C7BA-7778-47C0-882D-C810B5B1FA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7320C7BA-7778-47C0-882D-C810B5B1FA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7320C7BA-7778-47C0-882D-C810B5B1FA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7320C7BA-7778-47C0-882D-C810B5B1FA51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE766DD0-0792-4986-9D0B-D5A4011EDD54}
+	EndGlobalSection
+EndGlobal

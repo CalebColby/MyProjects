@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Starter/1.0.0": {
+        "dependencies": {
+          "CodeWars": "1.0.0"
+        },
+        "runtime": {
+          "Starter.dll": {}
+        }
+      },
+      "CodeWars/1.0.0": {
+        "runtime": {
+          "CodeWars.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Starter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodeWars/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
