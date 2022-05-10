@@ -37,7 +37,7 @@
             this.GameTable = new System.Windows.Forms.TableLayoutPanel();
             this.GuessBtn = new System.Windows.Forms.Button();
             this.GuessTxtBox = new System.Windows.Forms.TextBox();
-            this.ResultsLbn = new System.Windows.Forms.Label();
+            this.LBNResult = new System.Windows.Forms.Label();
             this.PreGameElements.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +49,7 @@
             this.StartBtn.TabIndex = 0;
             this.StartBtn.Text = "&Start Game";
             this.StartBtn.UseVisualStyleBackColor = true;
+            this.StartBtn.Click += new System.EventHandler(this.StartBtn_Click);
             // 
             // EasyButton
             // 
@@ -139,29 +140,30 @@
             this.GuessTxtBox.Name = "GuessTxtBox";
             this.GuessTxtBox.Size = new System.Drawing.Size(184, 47);
             this.GuessTxtBox.TabIndex = 5;
+            this.GuessTxtBox.TextChanged += new System.EventHandler(this.GuessTxtBox_TextChanged);
             this.GuessTxtBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.GuessTxtBox_KeyPress);
             // 
-            // ResultsLbn
+            // LBNResult
             // 
-            this.ResultsLbn.AutoSize = true;
-            this.ResultsLbn.Location = new System.Drawing.Point(809, 90);
-            this.ResultsLbn.Name = "ResultsLbn";
-            this.ResultsLbn.Size = new System.Drawing.Size(0, 41);
-            this.ResultsLbn.TabIndex = 5;
-            this.ResultsLbn.Visible = false;
+            this.LBNResult.AutoSize = true;
+            this.LBNResult.Location = new System.Drawing.Point(518, 71);
+            this.LBNResult.Name = "LBNResult";
+            this.LBNResult.Size = new System.Drawing.Size(358, 41);
+            this.LBNResult.TabIndex = 5;
+            this.LBNResult.Text = "Please Choose a Difficulty";
             // 
             // Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1115, 1188);
-            this.Controls.Add(this.ResultsLbn);
+            this.Controls.Add(this.LBNResult);
             this.Controls.Add(this.GuessTxtBox);
             this.Controls.Add(this.GuessBtn);
             this.Controls.Add(this.GameTable);
             this.Controls.Add(this.PreGameElements);
             this.Name = "Form";
-            this.Text = "Form1";
+            this.Text = "Number Guessing Game";
             this.PreGameElements.ResumeLayout(false);
             this.PreGameElements.PerformLayout();
             this.ResumeLayout(false);
@@ -180,6 +182,6 @@
         private TableLayoutPanel GameTable;
         private Button GuessBtn;
         private TextBox GuessTxtBox;
-        private Label ResultsLbn;
+        private Label LBNResult;
     }
 }
