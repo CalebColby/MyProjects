@@ -32,3 +32,4 @@ C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProject
 C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\NumberGuessingWinFormsGame\NumberGuessingWinFormsGame\obj\Debug\net6.0-windows\NumberGuessingWinFormsGame.pdb
 C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\NumberGuessingWinFormsGame\NumberGuessingWinFormsGame\obj\Debug\net6.0-windows\NumberGuessingWinFormsGame.genruntimeconfig.cache
 C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\NumberGuessingWinFormsGame\NumberGuessingWinFormsGame\obj\Debug\net6.0-windows\ref\NumberGuessingWinFormsGame.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\MyProjects\GitHub\CSProjects\NumberGuessingWinFormsGame\NumberGuessingWinFormsGame\obj\Debug\net6.0-windows\NumberGuessingWinFormsGame.Properties.Resources.resources

@@ -35,10 +35,26 @@
             this.label1 = new System.Windows.Forms.Label();
             this.PreGameElements = new System.Windows.Forms.GroupBox();
             this.GameTable = new System.Windows.Forms.TableLayoutPanel();
+            this.Pic1 = new System.Windows.Forms.PictureBox();
+            this.Pic2 = new System.Windows.Forms.PictureBox();
+            this.Pic3 = new System.Windows.Forms.PictureBox();
+            this.Pic4 = new System.Windows.Forms.PictureBox();
+            this.Pic5 = new System.Windows.Forms.PictureBox();
+            this.LBNgt1 = new System.Windows.Forms.Label();
+            this.LBNgt2 = new System.Windows.Forms.Label();
+            this.LBNgt3 = new System.Windows.Forms.Label();
+            this.LBNgt4 = new System.Windows.Forms.Label();
+            this.LBNgt5 = new System.Windows.Forms.Label();
             this.GuessBtn = new System.Windows.Forms.Button();
             this.GuessTxtBox = new System.Windows.Forms.TextBox();
             this.LBNResult = new System.Windows.Forms.Label();
             this.PreGameElements.SuspendLayout();
+            this.GameTable.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic5)).BeginInit();
             this.SuspendLayout();
             // 
             // StartBtn
@@ -111,6 +127,16 @@
             this.GameTable.ColumnCount = 2;
             this.GameTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.43189F));
             this.GameTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 79.56811F));
+            this.GameTable.Controls.Add(this.Pic1, 0, 0);
+            this.GameTable.Controls.Add(this.Pic2, 0, 1);
+            this.GameTable.Controls.Add(this.Pic3, 0, 2);
+            this.GameTable.Controls.Add(this.Pic4, 0, 3);
+            this.GameTable.Controls.Add(this.Pic5, 0, 4);
+            this.GameTable.Controls.Add(this.LBNgt1, 1, 0);
+            this.GameTable.Controls.Add(this.LBNgt2, 1, 1);
+            this.GameTable.Controls.Add(this.LBNgt3, 1, 2);
+            this.GameTable.Controls.Add(this.LBNgt4, 1, 3);
+            this.GameTable.Controls.Add(this.LBNgt5, 1, 4);
             this.GameTable.Location = new System.Drawing.Point(12, 385);
             this.GameTable.Name = "GameTable";
             this.GameTable.RowCount = 5;
@@ -123,6 +149,97 @@
             this.GameTable.TabIndex = 6;
             this.GameTable.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
+            // Pic1
+            // 
+            this.Pic1.Image = global::NumberGuessingWinFormsGame.Properties.Resources.incorrect_icon;
+            this.Pic1.Location = new System.Drawing.Point(3, 3);
+            this.Pic1.Name = "Pic1";
+            this.Pic1.Size = new System.Drawing.Size(116, 111);
+            this.Pic1.TabIndex = 0;
+            this.Pic1.TabStop = false;
+            this.Pic1.Visible = false;
+            this.Pic1.Click += new System.EventHandler(this.Pic1_Click);
+            // 
+            // Pic2
+            // 
+            this.Pic2.Image = global::NumberGuessingWinFormsGame.Properties.Resources.incorrect_icon;
+            this.Pic2.Location = new System.Drawing.Point(3, 120);
+            this.Pic2.Name = "Pic2";
+            this.Pic2.Size = new System.Drawing.Size(116, 111);
+            this.Pic2.TabIndex = 1;
+            this.Pic2.TabStop = false;
+            this.Pic2.Visible = false;
+            // 
+            // Pic3
+            // 
+            this.Pic3.Image = global::NumberGuessingWinFormsGame.Properties.Resources.incorrect_icon;
+            this.Pic3.Location = new System.Drawing.Point(3, 237);
+            this.Pic3.Name = "Pic3";
+            this.Pic3.Size = new System.Drawing.Size(116, 111);
+            this.Pic3.TabIndex = 2;
+            this.Pic3.TabStop = false;
+            this.Pic3.Visible = false;
+            // 
+            // Pic4
+            // 
+            this.Pic4.Image = global::NumberGuessingWinFormsGame.Properties.Resources.incorrect_icon;
+            this.Pic4.Location = new System.Drawing.Point(3, 354);
+            this.Pic4.Name = "Pic4";
+            this.Pic4.Size = new System.Drawing.Size(116, 104);
+            this.Pic4.TabIndex = 3;
+            this.Pic4.TabStop = false;
+            this.Pic4.Visible = false;
+            // 
+            // Pic5
+            // 
+            this.Pic5.Image = global::NumberGuessingWinFormsGame.Properties.Resources.incorrect_icon;
+            this.Pic5.Location = new System.Drawing.Point(3, 464);
+            this.Pic5.Name = "Pic5";
+            this.Pic5.Size = new System.Drawing.Size(116, 99);
+            this.Pic5.TabIndex = 4;
+            this.Pic5.TabStop = false;
+            this.Pic5.Visible = false;
+            // 
+            // LBNgt1
+            // 
+            this.LBNgt1.AutoSize = true;
+            this.LBNgt1.Location = new System.Drawing.Point(125, 0);
+            this.LBNgt1.Name = "LBNgt1";
+            this.LBNgt1.Size = new System.Drawing.Size(0, 41);
+            this.LBNgt1.TabIndex = 5;
+            // 
+            // LBNgt2
+            // 
+            this.LBNgt2.AutoSize = true;
+            this.LBNgt2.Location = new System.Drawing.Point(125, 117);
+            this.LBNgt2.Name = "LBNgt2";
+            this.LBNgt2.Size = new System.Drawing.Size(0, 41);
+            this.LBNgt2.TabIndex = 6;
+            // 
+            // LBNgt3
+            // 
+            this.LBNgt3.AutoSize = true;
+            this.LBNgt3.Location = new System.Drawing.Point(125, 234);
+            this.LBNgt3.Name = "LBNgt3";
+            this.LBNgt3.Size = new System.Drawing.Size(0, 41);
+            this.LBNgt3.TabIndex = 7;
+            // 
+            // LBNgt4
+            // 
+            this.LBNgt4.AutoSize = true;
+            this.LBNgt4.Location = new System.Drawing.Point(125, 351);
+            this.LBNgt4.Name = "LBNgt4";
+            this.LBNgt4.Size = new System.Drawing.Size(0, 41);
+            this.LBNgt4.TabIndex = 8;
+            // 
+            // LBNgt5
+            // 
+            this.LBNgt5.AutoSize = true;
+            this.LBNgt5.Location = new System.Drawing.Point(125, 461);
+            this.LBNgt5.Name = "LBNgt5";
+            this.LBNgt5.Size = new System.Drawing.Size(0, 41);
+            this.LBNgt5.TabIndex = 9;
+            // 
             // GuessBtn
             // 
             this.GuessBtn.Enabled = false;
@@ -132,6 +249,7 @@
             this.GuessBtn.TabIndex = 0;
             this.GuessBtn.Text = "&Guess";
             this.GuessBtn.UseVisualStyleBackColor = true;
+            this.GuessBtn.Click += new System.EventHandler(this.GuessBtn_Click);
             // 
             // GuessTxtBox
             // 
@@ -166,9 +284,20 @@
             this.Text = "Number Guessing Game";
             this.PreGameElements.ResumeLayout(false);
             this.PreGameElements.PerformLayout();
+            this.GameTable.ResumeLayout(false);
+            this.GameTable.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
         }
 
         #endregion
@@ -183,5 +312,15 @@
         private Button GuessBtn;
         private TextBox GuessTxtBox;
         private Label LBNResult;
+        private PictureBox Pic1;
+        private PictureBox Pic2;
+        private PictureBox Pic3;
+        private PictureBox Pic4;
+        private PictureBox Pic5;
+        private Label LBNgt1;
+        private Label LBNgt2;
+        private Label LBNgt3;
+        private Label LBNgt4;
+        private Label LBNgt5;
     }
 }

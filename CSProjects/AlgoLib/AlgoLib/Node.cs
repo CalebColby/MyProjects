@@ -8,7 +8,7 @@ namespace AlgoLib
 {
     internal class Node<T>
     {
-        internal T Data { get; set; }
+        internal T Data { get; }
 
         internal Node<T>? Next { get; set; }
         internal Node<T>? Previous { get; set; }

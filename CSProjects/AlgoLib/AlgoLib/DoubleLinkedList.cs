@@ -113,27 +113,80 @@ namespace AlgoLib
             else
             {
                 var current = Tail;
-                for (int i = (Count - 1) - index; i > 0; i++)
+                for (int i = (Count - 1) - index; i > 0; i--)
                 {
-
+                    current = current.Previous;
                 }
                 return current.Data;
             }
         }
 
-        public T Remove() 
+        public T Remove()
         {
-            throw new NotImplementedException(); 
+            if (Count == 0) return default(T);
+
+            T val = Head.Data;
+
+            if (Count == 1)
+            {
+                Head = null;
+                Tail = null;
+                Count = 0;
+                return val;
+            }
+
+            var newHead = Head.Next;
+
+            newHead.Previous = null;
+            Head = newHead;
+            Count--;
+
+            return val;
         }
 
         public T RemoveAt(int index)
         {
-            throw new NotImplementedException();
+            if(index < 0 || index >= Count) throw new IndexOutOfRangeException();
+            if(index == 0) return Remove();
+            if(index == Count - 1) return RemoveLast();
+
+
+            var next = Tail;
+            var prev = Head;
+            if(index < HalfCount() - 1)
+            {
+                for (int i = 0; i < index - 1; i++)
+                {
+                    prev = prev.Next;
+                }
+                next = prev.Next.Next;
+            }
+            else
+            {
+                for (int i = (Count - 2) - index; i > 0; i--)
+                {
+                    next = next.Previous;
+                }
+                prev = next.Previous.Previous;
+            }
+            var val = prev.Next.Data;
+            next.Previous = prev;
+            prev.Next = next;
+            Count--;
+            return val;
         }
 
         public T RemoveLast()
         {
-            throw new NotImplementedException();
+            T val = Tail.Data;
+
+            var newTail = Tail.Previous;
+
+            newTail.Next = null;
+            Tail = newTail;
+            Count--;
+
+            return val;
         }
 
         public void Clear()

@@ -6,11 +6,7 @@ namespace Starter
     {
         public static void Main()
         {
-            var mySLL = new SingleLinkedList<int>();
-
-            mySLL.Add(1);
-
-            Console.WriteLine(mySLL.Count);
+            var myBST = new BinarySearchTree<int>();
         }
     }
 }
