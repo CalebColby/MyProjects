@@ -33,12 +33,13 @@ namespace MazeSolver
                     EndNode = node;
                 }
             }
-            for(int i = 2; i < blueprints.Length; i++)
+            for (int i = 2; i < blueprints.Length; i++)
             {
                 if (!blueprints[i].Contains("\\\\"))
                 {
                     string[] connects = blueprints[i].Split(",");
                 }
+            }
         }
 
         public void Solve()
