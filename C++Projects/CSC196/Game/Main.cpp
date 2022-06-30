@@ -1,11 +1,13 @@
 #include "Math/MathUtils.h";
+#include "Renderer.h"
 #include <iostream>
 
 using namespace std;
 
-int main() 
-{
-	printf("c Hello Word\n");
 
-	//std::cout << "Hello World\n";
+int main()
+{
+	neu::CreateWindow(800, 600);
+
+	getchar();
 }

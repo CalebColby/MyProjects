@@ -1,0 +1,5 @@
+﻿  MathUtils.cpp
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\C++Projects\CSC196\Engine\Math\MathUtils.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Renderer.cpp
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\C++Projects\CSC196\Engine\Renderer.cpp(2,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Generating Code...
