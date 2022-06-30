@@ -2,7 +2,7 @@ import os
 
 from setuptools import find_namespace_packages
 
-SIMPLE_PATH = r'C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\people\simple/'
+SIMPLE_PATH = r'C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\DBT230 Databases II\people\simple/'
 
 class Employee:
     def __init__(self, fname, lname, hiredate):
@@ -35,6 +35,9 @@ def print_employees(path):
                 print(get_employee_from_file(line))
             f.close()
                 
+
+
+
     
 print_people_details(SIMPLE_PATH)
 print("-"*50 + '\n')
