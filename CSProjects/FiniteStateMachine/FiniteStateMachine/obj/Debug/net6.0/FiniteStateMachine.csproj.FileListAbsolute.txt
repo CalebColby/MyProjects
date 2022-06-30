@@ -1,0 +1,15 @@
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\bin\Debug\net6.0\FiniteStateMachine.exe
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\bin\Debug\net6.0\FiniteStateMachine.deps.json
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\bin\Debug\net6.0\FiniteStateMachine.runtimeconfig.json
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\bin\Debug\net6.0\FiniteStateMachine.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\bin\Debug\net6.0\FiniteStateMachine.pdb
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.csproj.AssemblyReference.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.AssemblyInfoInputs.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.AssemblyInfo.cs
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.csproj.CoreCompileInputs.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\refint\FiniteStateMachine.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.pdb
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.genruntimeconfig.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\ref\FiniteStateMachine.dll
