@@ -1,6 +1,6 @@
 import os
 
-#SIMPLE_PATH = r'..\people\simple/'
+SIMPLE_PATH = r'C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\DBT230 Databases II\people\simple'
 
 class Employee:
     def __init__(self, fname, lname, hiredate):
@@ -33,11 +33,6 @@ def print_employees(path):
                 print(get_employee_from_file(line))
             f.close()
                 
-
-dirname = os.path.dirname(__file__)
-filename = os.path.join(dirname, 'people/simple/')
-
-    
-print_people_details(filename)
+print_people_details(SIMPLE_PATH)
 print("-"*50 + '\n')
-print_employees(filename)
+print_employees(SIMPLE_PATH)
