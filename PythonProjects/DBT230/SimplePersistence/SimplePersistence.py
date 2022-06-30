@@ -1,8 +1,6 @@
 import os
 
-from setuptools import find_namespace_packages
-
-SIMPLE_PATH = r'C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\DBT230 Databases II\people\simple/'
+#SIMPLE_PATH = r'..\people\simple/'
 
 class Employee:
     def __init__(self, fname, lname, hiredate):
@@ -36,9 +34,10 @@ def print_employees(path):
             f.close()
                 
 
-
+dirname = os.path.dirname(__file__)
+filename = os.path.join(dirname, 'people/simple/')
 
     
-print_people_details(SIMPLE_PATH)
+print_people_details(filename)
 print("-"*50 + '\n')
-print_employees(SIMPLE_PATH)
+print_employees(filename)
