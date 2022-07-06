@@ -1,0 +1,15 @@
+#pragma once
+#include <random>
+
+namespace neu
+{
+	inline void SeedRandom(int seed) {srand(seed);}
+
+	inline int Random() { return rand(); }
+	inline int Random(int max) { return Random() % max; } // exclusive
+	inline int Random(int min, int max) { return min + Random() % ((max - min) + 1); } // inclusive
+
+	inline float RandomF() { return rand() / (float)RAND_MAX; } // 0.0 - 1.0
+	inline float RandomF(float max) { return RandomF() * max; } // 0.0 - max
+	inline float RandomF(float min, float max) { return min + RandomF(max - min); } // 0.0 - 1.0
+}

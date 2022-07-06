@@ -30,7 +30,7 @@
 
         private static bool isHigh(string input)
         {
-            char state = 'A';
+            char state = 'A'; //Q0
 
             foreach (char c in input)
             {
@@ -52,7 +52,6 @@
                         break;
                     case 'D':
                         return true;
-                        break;
                     default:
                         throw new Exception($"Unexpected State: {state}");
                 }

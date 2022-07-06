@@ -24,3 +24,4 @@ C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Proj
 C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\HelloMVC\HelloMVC\obj\Debug\net6.0\HelloMVC.pdb
 C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\HelloMVC\HelloMVC\obj\Debug\net6.0\HelloMVC.genruntimeconfig.cache
 C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\HelloMVC\HelloMVC\obj\Debug\net6.0\ref\HelloMVC.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\HelloMVC\HelloMVC\obj\Debug\net6.0\scopedcss\Views\Shared\_MyLayout.cshtml.rz.scp.css

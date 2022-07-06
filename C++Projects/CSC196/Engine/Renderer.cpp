@@ -1,18 +1,61 @@
 #include "Renderer.h" 
-#include <SDL.h> 
+#include <SDL.h>
+
 
 namespace neu
 {
-	SDL_Renderer* renderer{ nullptr };
-	SDL_Window* window{ nullptr };
-
-	void CreateWindow(int width, int height)
+	void Renderer::Intialize()
 	{
 		SDL_Init(SDL_INIT_VIDEO);
+		clearColor.r = 0;
+		clearColor.b = 0;
+		clearColor.g = 0;
+		clearColor.a = 255;
+	}
 
-		window = SDL_CreateWindow("Game", 100, 100, width, height, 
-			SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
-		renderer = SDL_CreateRenderer(window, -
-			1, SDL_RENDERER_PRESENTVSYNC | SDL_RENDERER_ACCELERATED);
+	void Renderer::Shutdown()
+	{
+		SDL_DestroyRenderer(m_renderer);
+		SDL_DestroyWindow(m_window);
+	}
+
+	void Renderer::CreateWindow(const char* name, int width, int height)
+	{
+		m_window = SDL_CreateWindow(name, 100, 100, width, height,SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
+		m_renderer = SDL_CreateRenderer(m_window, -1, SDL_RENDERER_PRESENTVSYNC | SDL_RENDERER_ACCELERATED);
+	}
+
+	void Renderer::BeginFrame()
+	{
+		SDL_SetRenderDrawColor(m_renderer, clearColor.r, clearColor.g, clearColor.b, clearColor.a);
+		SDL_RenderClear(m_renderer);
+	}
+
+	void Renderer::EndFrame()
+	{
+		SDL_RenderPresent(m_renderer);
+	}
+
+	void Renderer::DrawLine(float x1, float y1, float x2, float y2)
+	{
+		SDL_SetRenderDrawColor(m_renderer, 255, 255, 255, 255);
+		SDL_RenderDrawLineF(m_renderer, x1, y1, x2, y2);
+	}
+
+	void Renderer::DrawLine(const Vector2& v1, const Vector2& v2, const Color& color)
+	{
+		SDL_SetRenderDrawColor(m_renderer, color.r, color.g, color.b, color.a);
+		SDL_RenderDrawLineF(m_renderer, v1.x, v1.y, v2.x, v2.y);
+	}
+
+	void Renderer::DrawPoint(float x, float y)
+	{
+		SDL_SetRenderDrawColor(m_renderer, 255, 255, 255, 255);
+		SDL_RenderDrawPointF(m_renderer, x, y);
+	}
+	void Renderer::DrawPoint(const Vector2& v, const Color& color)
+	{
+		SDL_SetRenderDrawColor(m_renderer, color.r, color.g, color.b, color.a);
+		SDL_RenderDrawPointF(m_renderer, v.x, v.y);
 	}
 }

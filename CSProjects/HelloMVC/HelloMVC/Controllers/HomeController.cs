@@ -15,6 +15,13 @@ namespace HelloMVC.Controllers
 
         public IActionResult Index()
         {
+            //logic for the Home Page
+
+            //
+            var messageOfTheDay = "Welcome to my amazing Website";
+
+            ViewBag.MessageOfTheDay = messageOfTheDay;
+
             return View();
         }
 

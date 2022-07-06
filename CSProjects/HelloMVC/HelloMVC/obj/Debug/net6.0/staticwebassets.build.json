@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bOlotn1DVZvJ79GTyNb0Bbo2of9srSHpZ8/uazb8XFU=",
+  "Hash": "dw/TAFImGLYeHQ1z13UJRrY0y/OdRxM2IX5OsaD2VfU=",
   "Source": "HelloMVC",
   "BasePath": "_content/HelloMVC",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\HelloMVC\\HelloMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HelloMVC.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\HelloMVC\\HelloMVC\\wwwroot\\css\\aboutme.css",
+      "SourceId": "HelloMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\HelloMVC\\HelloMVC\\wwwroot\\",
+      "BasePath": "_content/HelloMVC",
+      "RelativePath": "css/aboutme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\aboutme.css"
     },
     {
       "Identity": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\HelloMVC\\HelloMVC\\wwwroot\\css\\site.css",
