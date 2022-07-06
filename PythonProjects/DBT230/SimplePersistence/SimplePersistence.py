@@ -1,8 +1,9 @@
 import os
 import pickle
 
-SIMPLE_PATH = r'C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\DBT230 Databases II\people\simple'
+SIMPLE_PATH = r'C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\DBT230 Databases II\people\simple/'
 LONG_PATH =r'C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\DBT230 Databases II\people\long/'
+LONG_SERIAL_PATH =r'C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Desktop\DBT230 Databases II\people\long serialized/'
 
 class Employee:
     def __init__(self, fname, lname, hiredate):
@@ -60,23 +61,22 @@ def add_employee(id, first_name, last_name, hire_date):
         file_reference.write(string_to_write)
         file_reference.close()
             
-def SerializeAllEmployee(id, first_name, last_name, hire_date):
+def serialize_all_employee():
+    files = os.listdir(LONG_PATH)
+    for file in files:
+        with open(os.path.join(LONG_PATH, file), "r") as f:
+            id = f.split(", ")[0]
+            emp = get_employee_from_file(f)
+            ser_path = f'{id}.ser'
+            with open(os.path.join(LONG_SERIAL_PATH, ser_path), 'wb') as ser:
+                pickle.dump(emp, ser)
+            
 
-   with open(' /long serializied/1.ser', 'w') as f:
-      self.id = id
-      self.first_name = first_name
-      self.last_name = last_name
-      self.hire_date = hire_date
-      with open('.txt', 'rb') as f:
-          p = pickle.load(f)
-
-def GetEmployee(id = int):
-
-    with open("pickle_obj.pickle", "wb") as out:
-        pickle.dump(employee, out)
-
-    with open("pickle_obj.pickle", "rb") as out:
-        assert type(pickle.load(out)) == Employee
+def get_serialized_employee(id):
+    ser_path = f'{id}.ser'
+    with open(os.path.join(LONG_SERIAL_PATH, ser_path), "rb") as out:
+        emp = pickle.load(out)
+        return emp
         
         
 #update_employee(5, 'Jane', 'Doe', 'September 2003')
