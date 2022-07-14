@@ -15,6 +15,12 @@
     <Filter Include="Renderer">
       <UniqueIdentifier>{3726762a-bc24-473a-a96c-bb6b8f5b7dab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{d8268425-88a8-44a0-80ae-6b1ed2583748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{4f01e788-4cad-4076-85d2-e08fed26a3c3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Math\MathUtils.cpp">
@@ -22,6 +28,15 @@
     </ClCompile>
     <ClCompile Include="Renderer.cpp">
       <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>Input</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -39,6 +54,15 @@
     </ClInclude>
     <ClInclude Include="Color.h">
       <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\File.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>Input</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,2 +1,3 @@
 ﻿  Main.cpp
-  Game.vcxproj -> C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\C++Projects\CSC196\x64\Debug\Game.exe
+Main.obj : error LNK2019: unresolved external symbol "void __cdecl neu::SetFilePath(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?SetFilePath@neu@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function main
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\C++Projects\CSC196\x64\Debug\Game.exe : fatal error LNK1120: 1 unresolved externals

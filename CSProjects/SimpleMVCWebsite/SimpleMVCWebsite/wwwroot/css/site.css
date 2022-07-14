@@ -16,3 +16,14 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.Images {
+    padding: 10px;
+    height: 300px;
+    width: 450px; 
+}
+
+.Text {
+    padding: 15px;
+    background-color: blueviolet
+}
