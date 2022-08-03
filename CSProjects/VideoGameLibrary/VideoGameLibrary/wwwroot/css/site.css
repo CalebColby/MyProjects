@@ -1,0 +1,36 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: darkgray;
+    background-image: url("/img/VGLBackground.jpg");
+    color: white;
+}
+
+.dark-Link a:link, a:visited {
+    color: aqua;
+}
+
+.img-Display {
+    float: right;
+    margin-right: 40%;
+}
+
+.Loaner {
+    font-weight: bold;
+    background: yellow;
+    color: black;
+}

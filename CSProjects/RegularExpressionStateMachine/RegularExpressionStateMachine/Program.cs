@@ -161,7 +161,7 @@
                             // end case
                             break;
                         case 'j':
-
+                            if (let == " ")
 
 
                             break;

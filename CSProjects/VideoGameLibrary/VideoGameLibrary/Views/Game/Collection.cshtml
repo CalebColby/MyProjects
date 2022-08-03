@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Game Collections";
+}
+
+<div class="text-right">
+	<h1 class="display-2">Your Games</h1>
+	<h2 class="display-6">There are @Model.GameCollection.Count games in your Library</h2>
+	<ul>
+		@{
+			foreach (var game in @Model.GameCollection)
+			{
+				<li><a href="/Game/Display/@game.Title">@game.Title</a></li>
+			}
+		}
+	</ul>
+</div>

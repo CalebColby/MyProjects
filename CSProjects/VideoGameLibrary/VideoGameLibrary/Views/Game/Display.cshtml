@@ -1,0 +1,44 @@
+﻿
+<div>
+	@{
+		if (@Model == null)
+		{
+			<h1 class="display-4">Whoops! That Game Doesn't Exist in this Collection</h1>
+			<span>Click <a href="/Home/Collection">Here</a> for a link to the collection we have</span>
+		}
+		else
+		{
+			<div>
+				<h1 class="display-4">@Model.Title - Info</h1>
+				<img class="img-Display" src="@Model.CoverImagePath" alt="Cover Art for @Model.Title" height="400px" width="300px"/><br/>
+				<span>Title: @Model.Title</span><br/>
+				<span>Platform: @Model.Platform</span><br/>
+				<span>Genre: @Model.Genre</span><br/>
+				<span>ESRB Rating: @Model.ESRBRating</span><br/>
+				<span>Year Released: @Model.year</span><br/>
+				@{
+					if (@Model.LoanedTo != null)
+					{
+						<br/><br/>
+						<span class="Loaner">
+							<span>Loaned To: @Model.LoanedTo</span><br/>
+							<span>Loaned On: @Model.LoanedDate</span><br/>
+							<form id="LoanForm" action="" method="Post">
+								<input type="submit" value="Return Game"/>
+								<input type="hidden" id="LoanName" name="LoanName" value=""/>
+							</form>
+						</span>
+					}
+					else
+					{
+						<br/><br/><br/><br/>
+						<form id="LoanForm" action="" method="Post">
+							<input name="LoanName" type="text" placeholder="Enter the Borrower's Name" size="25px"/>
+							<input type="submit" value="Loan Game"/>
+						</form>
+					}
+				}
+			</div>
+		}
+	}
+</div>

@@ -1,0 +1,27 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Routing.Models;
+using System.Diagnostics;
+
+namespace Routing.Controllers
+{
+    public class ChickenController : Controller
+    {
+        private readonly ILogger<ChickenController> _logger;
+
+        public ChickenController(ILogger<ChickenController> logger)
+        {
+            _logger = logger;
+        }
+
+        public IActionResult Index()
+        {
+            return Redirect(url: "https://www.chick-fil-a.com/");
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+    }
+}

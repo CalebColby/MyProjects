@@ -37,6 +37,12 @@
 	<main role="main" class="pb-3">
 		@RenderBody()
 	</main>
+    
+	<footer class="border-top footer text-muted bg-black text-light py-0">
+		<div class="container">
+			&copy; @DateTime.Now.Year - Caleb - <a asp-area="" asp-controller="Home" asp-action="Index">Go Back to Home Page</a>
+		</div>
+	</footer>
 </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
