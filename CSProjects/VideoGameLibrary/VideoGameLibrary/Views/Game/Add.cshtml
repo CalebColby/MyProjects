@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Adding a New Game";
+}
+
+<div class="text-center">
+	@{
+		if ((bool)@ViewData["Warning"])
+		{
+			<p class="text-danger">Please Fill Out all Fields before Adding a new Game</p>
+		}
+	}
+	<form action="" method="post">
+		<label for="title">New Game's Title:</label>
+		<input id="Title" name="Title" type="Text" placeholder="Enter Game Title Here"/>
+		<br/>
+
+		<label for="Platform">New Game's Platform:</label>
+		<input id="Platform" name="Platform" type="Text" placeholder="Enter Game Platform Here"/>
+		<br/>
+
+		<label for="Genre">New Game's Genre:</label>
+		<input id="Genre" name="Genre" type="Text" placeholder="Enter Game Genre Here"/>
+		<br/>
+
+		<label for="ESRBRating">New Game's ESRB Rating:</label>
+		<input id="ESRBRating" name="ESRBRating" type="Text" placeholder="Enter Game ESRB Rating Here"/>
+		<br/>
+
+		<label for="Year">New Game's Release Year:</label>
+		<input id="Year" name="Year" type="Text" placeholder="Enter Game Release Year Here"/>
+		<br/>
+
+		<input type="submit"/>
+	</form>
+</div>

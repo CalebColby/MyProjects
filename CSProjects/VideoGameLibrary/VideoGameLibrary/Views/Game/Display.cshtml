@@ -1,21 +1,20 @@
-﻿
-<div>
+﻿<div>
 	@{
 		if (@Model == null)
 		{
 			<h1 class="display-4">Whoops! That Game Doesn't Exist in this Collection</h1>
-			<span>Click <a href="/Home/Collection">Here</a> for a link to the collection we have</span>
+			<span>Click <a href="/Game/Collection">Here</a> for a link to the collection we have</span>
 		}
 		else
 		{
 			<div>
 				<h1 class="display-4">@Model.Title - Info</h1>
-				<img class="img-Display" src="@Model.CoverImagePath" alt="Cover Art for @Model.Title" height="400px" width="300px"/><br/>
+				<img class="img-Display" src="@Model.CoverImagePath" alt="Cover Art for @Model.Title" height="400" width="300"/><br/>
 				<span>Title: @Model.Title</span><br/>
 				<span>Platform: @Model.Platform</span><br/>
 				<span>Genre: @Model.Genre</span><br/>
 				<span>ESRB Rating: @Model.ESRBRating</span><br/>
-				<span>Year Released: @Model.year</span><br/>
+				<span>Year Released: @Model.Year</span><br/>
 				@{
 					if (@Model.LoanedTo != null)
 					{

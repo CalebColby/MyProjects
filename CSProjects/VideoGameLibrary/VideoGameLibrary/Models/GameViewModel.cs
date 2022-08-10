@@ -9,7 +9,7 @@ namespace VideoGameLibrary.Models
         public string Platform;
         public string Genre;
         public string ESRBRating;
-        public string year;
+        public string Year;
         public string CoverImagePath;
         public string LoanedTo;
         public string LoanedDate;
@@ -21,7 +21,7 @@ namespace VideoGameLibrary.Models
             Platform = platform;
             Genre = genre;
             this.ESRBRating = ESRBRating;
-            this.year = year;
+            Year = year;
             CoverImagePath = coverImagePath;
             LoanedTo = loanedTo;
             LoanedDate = loanedDate;
@@ -34,7 +34,7 @@ namespace VideoGameLibrary.Models
             Platform = game.Platform;
             Genre = game.Genre;
             ESRBRating = game.ESRBRating;
-            year = game.year;
+            Year = game.Year;
             CoverImagePath = game.CoverImagePath;
             LoanedTo = game.LoanedTo;
             LoanedDate = game.LoanedDate;

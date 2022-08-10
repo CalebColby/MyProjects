@@ -1,4 +1,8 @@
-﻿namespace VGLibraryDAL {
+﻿using System.Reflection;
+using System.Runtime.CompilerServices;
+using Microsoft.VisualBasic.CompilerServices;
+
+namespace VGLibraryDAL {
     public class Game
     {
         public int GameId = 0;
@@ -6,7 +10,7 @@
         public string Platform;
         public string Genre;
         public string ESRBRating;
-        public string year;
+        public string Year;
         public string CoverImagePath;
         public string LoanedTo;
         public string LoanedDate;
@@ -19,7 +23,7 @@
             Platform = platform;
             Genre = genre;
             this.ESRBRating = ESRBRating;
-            this.year = year;
+            Year = year;
             CoverImagePath = coverImagePath;
             LoanedTo = loanedTo;
             LoanedDate = loanedDate;

@@ -1,15 +1,76 @@
-﻿@{
+﻿@using System.Diagnostics.Eventing.Reader
+@{
     ViewData["Title"] = "Game Collections";
 }
 
 <div class="text-right">
+	<div class="Collection-Top-Bar">
+		<form action="" method="post">
+			<select name="Genre" id="Genre-Select">
+				<option value=@null>--Genre Filter--</option>
+				@{
+					List<string> gTypes = new List<string>();
+					foreach (var gType in @Model.Genres)
+					{
+						<option value=@gType>@gType</option>
+					}
+				}
+			</select>
+			<select name="Platform" id="Platform-Select">
+				<option value=@null>--Platform Filter--</option>
+				@{
+					List<string> pTypes = new List<string>();
+					foreach (var pType in @Model.Platforms)
+					{
+						<option value=@pType>@pType</option>
+					}
+				}
+			</select>
+			<select name="ESRBRating" id="ESRBRating-Select">
+				<option value=@null>--ESRB Filter--</option>
+				@{
+					List<string> rTypes = new List<string>();
+					foreach (var rType in Model.ESRBRatings)
+					{
+						<option value=@rType>@rType</option>
+					}
+				}
+			</select>
+			<input type="text" placeholder="Search" name="sKey"/>
+			<input type="submit" value="Search Library"/>
+		</form>
+		<form asp-action="Remove" method="post">
+			<select name="RemoveId">
+				<option value=@null>--Which Game Will you Remove--</option>
+				@{
+					foreach (var game in @Model.Games)
+					{
+						<option value=@game.GameId>@game.Title</option>
+					}
+				}
+			</select>
+			<input type="submit" value="Remove Game"/>
+		</form>
+	</div>
 	<h1 class="display-2">Your Games</h1>
-	<h2 class="display-6">There are @Model.GameCollection.Count games in your Library</h2>
+	@{
+		if (@Model.searched)
+		{
+			<h2 class="display-6">There are @Model.Games.Count Game(s) that match your Filters in your Library</h2>
+		}
+		else
+		{
+			<h2 class="display-6">There are @Model.Games.Count Game(s) in your Library</h2>
+		}
+		
+	}
 	<ul>
 		@{
-			foreach (var game in @Model.GameCollection)
+			foreach (var game in @Model.Games)
 			{
-				<li><a href="/Game/Display/@game.Title">@game.Title</a></li>
+				<li>
+					<a href="/Game/Display/@game.Title">@game.Title</a>
+				</li>
 			}
 		}
 	</ul>

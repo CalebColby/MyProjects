@@ -10,6 +10,7 @@ namespace VGLibraryDAL
     {
         public IEnumerable<Game> GetAllGames();
         public IEnumerable<Game> SearchGames(string keyword);
+        public IEnumerable<Game> SearchGames(string keyword, IEnumerable<Game> searchList);
         public IEnumerable<Game> FilterGames(string genre, string platform, string esrbRating);
 
         public int AddGame(Game game);
@@ -17,5 +18,6 @@ namespace VGLibraryDAL
         public int UpdateGame(Game game);
 
         public void DeleteGame(int id);
+        
     }
 }

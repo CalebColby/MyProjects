@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "VGLibraryDAL/1.0.0": {
+        "runtime": {
+          "VGLibraryDAL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VGLibraryDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
