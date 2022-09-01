@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialPetSite", "SocialPetSite\SocialPetSite.csproj", "{194B9647-0F8E-4237-856F-EC5AFA01B37E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetDAL", "PetDAL\PetDAL.csproj", "{22FFCBD4-7912-4CA7-98B8-1D6BFBBA6190}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{194B9647-0F8E-4237-856F-EC5AFA01B37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194B9647-0F8E-4237-856F-EC5AFA01B37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194B9647-0F8E-4237-856F-EC5AFA01B37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194B9647-0F8E-4237-856F-EC5AFA01B37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FFCBD4-7912-4CA7-98B8-1D6BFBBA6190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FFCBD4-7912-4CA7-98B8-1D6BFBBA6190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FFCBD4-7912-4CA7-98B8-1D6BFBBA6190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FFCBD4-7912-4CA7-98B8-1D6BFBBA6190}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8C3636C-6839-4C86-ADEA-0099512B488B}
+	EndGlobalSection
+EndGlobal

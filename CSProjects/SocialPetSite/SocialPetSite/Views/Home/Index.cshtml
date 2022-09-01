@@ -1,0 +1,19 @@
+﻿@using PetDAL.Models;
+@model Pet;
+
+@{
+	ViewData["Title"] = "Home Page";
+
+	var pet = Model;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+	<p>Please enjoy this Pet website where you can share and show off details 
+		about your Pets and the Pets of other users.</p>
+	
+	<div class="align-content-center">
+		<p>Random Pet From The Database</p>
+		@Html.Partial("_PetCard", pet);
+	</div>
+</div>

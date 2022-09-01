@@ -24,7 +24,7 @@ namespace VGLibraryDAL
             int id = 1;
             if (Games.Count != 0)
             {
-                id = Games.Max(g => g.GameId) + 1;
+                id = Games.Max(g => g.GameID) + 1;
                 foreach (Game game in Games)
                 {
                     if (newGame.Title.Equals(game.Title) && newGame.Platform.Equals(game.Platform)
@@ -32,14 +32,14 @@ namespace VGLibraryDAL
                         && newGame.Year.Equals(game.Year)) return -1;
                 }
             }
-            newGame.GameId = id;
+            newGame.GameID = id;
             Games.Add(newGame);
             return id;
         }
 
         public void DeleteGame(int id)
         {
-            Games.RemoveAll(g => g.GameId == id);
+            Games.RemoveAll(g => g.GameID == id);
             int test = 0;
             test++;
             test++;
@@ -49,10 +49,10 @@ namespace VGLibraryDAL
 
         public int UpdateGame(Game game)
         {
-            var GameToBeUpdated = Games.Find(g => g.GameId == game.GameId);
+            var GameToBeUpdated = Games.Find(g => g.GameID == game.GameID);
             if (GameToBeUpdated != null)
             {
-                DeleteGame(game.GameId);
+                DeleteGame(game.GameID);
                 Games.Add(game);
                 return -1;
             }

@@ -1,19 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using VGLibraryDAL;
+using VGLibraryDAL.Data;
 using VideoGameLibrary.Models;
 
 namespace VideoGameLibrary.Controllers
 {
     public class GameController : Controller
     {
-        private IGameDAL dal = new StaticGameDAL();
+        private readonly IGameDAL dal;
 
         private readonly ILogger<HomeController> _logger;
 
-        public GameController(ILogger<HomeController> logger)
+        public GameController(ILogger<HomeController> logger, IGameDAL dal, VGLContext context)
         {
             _logger = logger;
+            this.dal = new EFGameDAL(context);
         }
 
         public IActionResult Collection()

@@ -1,0 +1,18 @@
+﻿@using PetDAL.Models
+@model Pet
+
+@{
+	var pet = Model;
+}
+
+<div class="card" style="width: 18rem;">
+	<img class="card-img-top" src="@pet.ImageURL" alt="Picture of @pet.Name the @pet.Animal" />
+	<div class="card-body">
+		<h5 class="card-title">@pet.Name</h5>
+		<p class="card-text">
+			@pet.Animal : @pet.Age
+			<br/>
+			@pet.Description
+		</p>
+	</div>
+</div>

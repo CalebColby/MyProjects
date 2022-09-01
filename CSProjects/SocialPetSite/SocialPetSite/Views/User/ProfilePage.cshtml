@@ -1,0 +1,28 @@
+﻿@using PetDAL.Models
+@{
+	ViewData["Title"] = @Model.UserName;
+}
+
+<div>
+	@if (Model.MyPage)
+	{
+		<h1>Your Page</h1>
+	}
+	else
+	{
+		<h1>@Model.UserName's Name</h1>
+	}
+</div>
+<div>
+	<h2>Pets</h2>
+	@foreach (var p3t in @Model.UserPets)
+	{
+		Pet pet = p3t;
+		@Html.Partial("_PetCard", pet);
+	}
+	@if (@Model.MyPage)
+	{
+		<br/>
+		<input type="button" text="Add a New Pet" asp-controller="Pet" asp-action="Add"/>
+	}
+</div>

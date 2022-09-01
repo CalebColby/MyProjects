@@ -29,7 +29,7 @@ namespace VideoGameLibrary.Models
 
         public GameViewModel(Game game)
         {
-            GameId = game.GameId;
+            GameId = game.GameID;
             Title = game.Title;
             Platform = game.Platform;
             Genre = game.Genre;

@@ -1,0 +1,12 @@
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\SocialPetSite\PetDAL\bin\Debug\net6.0\PetDAL.deps.json
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\SocialPetSite\PetDAL\bin\Debug\net6.0\PetDAL.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\SocialPetSite\PetDAL\bin\Debug\net6.0\PetDAL.pdb
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\SocialPetSite\PetDAL\obj\Debug\net6.0\PetDAL.csproj.AssemblyReference.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\SocialPetSite\PetDAL\obj\Debug\net6.0\PetDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\SocialPetSite\PetDAL\obj\Debug\net6.0\PetDAL.AssemblyInfoInputs.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\SocialPetSite\PetDAL\obj\Debug\net6.0\PetDAL.AssemblyInfo.cs
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\SocialPetSite\PetDAL\obj\Debug\net6.0\PetDAL.csproj.CoreCompileInputs.cache
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\SocialPetSite\PetDAL\obj\Debug\net6.0\PetDAL.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\SocialPetSite\PetDAL\obj\Debug\net6.0\refint\PetDAL.dll
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\SocialPetSite\PetDAL\obj\Debug\net6.0\PetDAL.pdb
+C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\SocialPetSite\PetDAL\obj\Debug\net6.0\ref\PetDAL.dll
