@@ -24,7 +24,7 @@ namespace SocialPetSite.Controllers
 
         public IActionResult Index()
         {
-            if (userManager.GetUserId(user) != null)
+            if (userManager.GetUserId(User) != null)
             {
 
             }
