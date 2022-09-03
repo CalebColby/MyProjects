@@ -15,7 +15,20 @@ namespace MadForInputs.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            MadLibViewModel model = null;
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult Index(string properNoun, string noun, string adjective, string verb, string adverb)
+        {
+            if (string.IsNullOrEmpty(properNoun)) properNoun = "(Default Value): Paul Fox";
+            if (string.IsNullOrEmpty(noun)) noun = "(Default Value): Professor";
+            if (string.IsNullOrEmpty(adjective)) adjective = "(Default Value): Fun";
+            if (string.IsNullOrEmpty(verb)) verb = "(Default Value): Walk";
+            if (string.IsNullOrEmpty(adverb)) adverb = "(Default Value): Wildly";
+            MadLibViewModel model = new MadLibViewModel(properNoun, noun, adjective, verb, adverb);
+            return View(model);
         }
 
         public IActionResult Privacy()

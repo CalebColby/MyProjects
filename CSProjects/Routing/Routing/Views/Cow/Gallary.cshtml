@@ -1,0 +1,12 @@
+﻿@{
+	ViewData["Title"] = "Gallery";
+}
+
+<div class="text-center">
+	@if (@Model.PageNum >= 0)
+	{
+		<p>You are on Gallery Page @Model.PageNum</p>
+	}
+	
+	<p>There are @Model.ItemsDisplayed Cows on Display</p>
+</div>

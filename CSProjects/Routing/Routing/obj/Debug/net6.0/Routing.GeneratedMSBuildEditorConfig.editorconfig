@@ -15,8 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\Routing\Routing
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Ccolby/OneDrive - Neumont College of Computer Science/Documents/My Projects/Github/CSProjects/Routing/Routing/Views/Cow/Favorite.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ293XEZhdm9yaXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ccolby/OneDrive - Neumont College of Computer Science/Documents/My Projects/Github/CSProjects/Routing/Routing/Views/Cow/Gallary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ293XEdhbGxhcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Ccolby/OneDrive - Neumont College of Computer Science/Documents/My Projects/Github/CSProjects/Routing/Routing/Views/Cow/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ293XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ccolby/OneDrive - Neumont College of Computer Science/Documents/My Projects/Github/CSProjects/Routing/Routing/Views/Cow/NamedIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ293XE5hbWVkSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Ccolby/OneDrive - Neumont College of Computer Science/Documents/My Projects/Github/CSProjects/Routing/Routing/Views/Home/Index.cshtml]

@@ -1,0 +1,10 @@
+﻿@{
+	ViewData["Title"] = "Favorite Cows";
+}
+
+<div class="text-center">
+	@foreach (var cow in @Model)
+	{
+		<p>@cow is one of your favorite cows</p>
+	}
+</div>

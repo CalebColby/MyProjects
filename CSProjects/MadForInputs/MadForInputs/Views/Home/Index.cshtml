@@ -3,6 +3,26 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+	<h3 class="display-4">Enter Your MadLib answers here!!</h3>
+	<form method="post">
+		<input type="text" placeholder="Name" name="properNoun"/>
+		<input type="text" placeholder="Profession" name="noun"/>
+		<input type="text" placeholder="Adjective" name="adjective"/>
+		<input type="text" placeholder="Verb" name="verb"/>
+		<input type="text" placeholder="Adverb" name="adverb"/>
+		<input type="submit" value="Submit your answers"/>
+	</form>
+
+	@if (@Model != null)
+	{
+		<p>You can re-enter new values if you want</p>
+		<br/>
+		<p>
+			Let me introduce my friend, <em>@Model.ProperNoun</em>. <em>@Model.ProperNoun</em> is a 
+			<em>@Model.Noun</em> and has done many <em>@Model.Adjective</em> things with me over the years. 
+			My favorite time was the when we found the <em>@Model.Adjective</em>-eyed Rhino. 
+			Tomorrow we plan to <em>@Model.Verb</em> across the <em>@Model.Adverb</em> running river rapids 
+			in the gorge and hope to have great fun.”
+		</p>
+	}
 </div>
