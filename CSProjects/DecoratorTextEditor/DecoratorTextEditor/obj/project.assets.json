@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\CakeDecorater\\CakeDecorater\\CakeDecorater.csproj",
-      "projectName": "CakeDecorater",
-      "projectPath": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\CakeDecorater\\CakeDecorater\\CakeDecorater.csproj",
+      "projectUniqueName": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\DecoratorTextEditor\\DecoratorTextEditor\\DecoratorTextEditor.csproj",
+      "projectName": "DecoratorTextEditor",
+      "projectPath": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\DecoratorTextEditor\\DecoratorTextEditor\\DecoratorTextEditor.csproj",
       "packagesPath": "C:\\Users\\Ccolby\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\CakeDecorater\\CakeDecorater\\obj\\",
+      "outputPath": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\DecoratorTextEditor\\DecoratorTextEditor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
