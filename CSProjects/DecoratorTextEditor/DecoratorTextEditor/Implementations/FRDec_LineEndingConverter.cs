@@ -12,6 +12,7 @@ namespace DecoratorTextEditor.Implementations
         public override string EditText(string text)
         {
             //Signature Removing Logic Here
+            text = text.Replace("", "");
 
             if (SubItem == null) return text;
             return SubItem.EditText(text);
