@@ -12,12 +12,12 @@ namespace DecoratorTextEditor.Implementations
         public override string EditText(string text)
         {
             //Signature Removing Logic Here
-            text = text.Replace("\n\nMike Pitcher, October 5th", "");
+            text = text.Replace("\n", "\r\n"); // Kinda doing this in reverse but it still demonstrates the intention
 
             if (SubItem == null) return text;
             return SubItem.EditText(text);
         }
-        public FRDec_LineEndingConverter(TEAbst subItem) : base(subItem)
+        public FRDec_LineEndingConverter(TEAbst subItem = null) : base(subItem)
         {
             
         }

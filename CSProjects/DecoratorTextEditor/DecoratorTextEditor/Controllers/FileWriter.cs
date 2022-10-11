@@ -26,7 +26,24 @@ namespace DecoratorTextEditor.Controllers
             FirstDecorator = new FWDec_Signature(new FWDec_CharUpShifter(null));
             FirstDecorator.AddDecorator(new FWDec_CharUpShifter(null));
 
-            Console.WriteLine(FirstDecorator.EditText(inputText));
+            inputText = FirstDecorator.EditText(inputText);
+            Console.WriteLine(inputText);
+
+            StreamWriter sw = new StreamWriter(
+                "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects" +
+                "\\Github\\CSProjects\\DecoratorTextEditor\\DecoratorTextEditor\\Output Files\\DecOutput.txt");
+            try
+            {
+                sw.WriteLine(inputText);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception: " + e.Message);
+            }
+            finally
+            {
+                sw.Close();
+            }
         }
     }
 }

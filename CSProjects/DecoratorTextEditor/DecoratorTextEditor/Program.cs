@@ -6,7 +6,7 @@ namespace DecoratorTextEditor
     {
         public static void Main(string[] args)
         {
-            new FileWriter().Run();
+            new FileReader().Run();
         }
     }
 }

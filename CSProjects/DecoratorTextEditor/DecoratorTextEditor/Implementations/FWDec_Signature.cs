@@ -20,7 +20,7 @@ namespace DecoratorTextEditor.Implementations
             return SubItem.EditText(text);
         }
 
-        public FWDec_Signature(TEAbst subItem) : base(subItem)
+        public FWDec_Signature(TEAbst subItem = null) : base(subItem)
         {
             
         }

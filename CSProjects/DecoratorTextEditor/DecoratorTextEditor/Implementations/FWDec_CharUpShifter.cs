@@ -14,24 +14,22 @@ namespace DecoratorTextEditor.Implementations
         {
             // Character Shifting Logic Here
             char[] buffer = text.ToCharArray();
+            StringBuilder sb = new StringBuilder();
             for (int i = 0; i < buffer.Length; i++)
             {
                 char letter = buffer[i];
-
-                if (letter >= 'a' && letter <= 'z')// This Checks that the character is a letter and not a number
-                {
-                    letter = (char)(letter + 1);
-
-                    if (letter > 'z') letter = (char)(letter - 26);
-                }
+                letter = (char)(letter + 1);
+                // if (letter > 'z') letter = (char)(letter - 26); // Artifact from a previous iteration
+                sb.Append(letter);
             }
 
-            text = buffer.ToString();
+            //text = buffer.ToString(); // toString() isn't actually implemented for char arrays so this didn't work
+            text = sb.ToString();
 
             if(SubItem == null) return text;
             return SubItem.EditText(text);
         }
-        public FWDec_CharUpShifter(TEAbst subItem) : base(subItem)
+        public FWDec_CharUpShifter(TEAbst subItem = null) : base(subItem)
         {
             
         }
