@@ -9,7 +9,8 @@ namespace CommandPattern.implementations
 {
     public class MoveUp : ICommand
     {
-        public void Execute()
+        private Label victim;
+        public void Execute(Label victimRef)
         {
             throw new NotImplementedException();
         }
