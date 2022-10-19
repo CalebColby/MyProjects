@@ -28,10 +28,5 @@ namespace CommandPattern.implementations
 
             // Change the square's Color back to the value stored in prevColor
         }
-
-        public ChangeColor(Color newColor)
-        {
-            NewColor = newColor;
-        }
     }
 }

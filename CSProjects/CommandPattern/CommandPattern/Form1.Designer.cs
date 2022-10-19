@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.pnl_View = new System.Windows.Forms.Panel();
+            this.lbl_Player = new System.Windows.Forms.Label();
             this.btn_Color = new System.Windows.Forms.Button();
             this.btn_Up = new System.Windows.Forms.Button();
             this.btn_Left = new System.Windows.Forms.Button();
@@ -36,17 +37,26 @@
             this.btn_Down = new System.Windows.Forms.Button();
             this.btn_Undo = new System.Windows.Forms.Button();
             this.btn_Reset = new System.Windows.Forms.Button();
-            this.lab_Player = new System.Windows.Forms.Label();
             this.pnl_View.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnl_View
             // 
-            this.pnl_View.Controls.Add(this.lab_Player);
+            this.pnl_View.Controls.Add(this.lbl_Player);
             this.pnl_View.Location = new System.Drawing.Point(29, 26);
             this.pnl_View.Name = "pnl_View";
             this.pnl_View.Size = new System.Drawing.Size(1456, 992);
             this.pnl_View.TabIndex = 0;
+            // 
+            // lbl_Player
+            // 
+            this.lbl_Player.AutoSize = true;
+            this.lbl_Player.Location = new System.Drawing.Point(660, 457);
+            this.lbl_Player.Name = "lbl_Player";
+            this.lbl_Player.Size = new System.Drawing.Size(122, 41);
+            this.lbl_Player.TabIndex = 0;
+            this.lbl_Player.Text = "\"Player\"";
+            this.lbl_Player.Click += new System.EventHandler(this.lab_Player_Click);
             // 
             // btn_Color
             // 
@@ -118,16 +128,6 @@
             this.btn_Reset.UseVisualStyleBackColor = true;
             this.btn_Reset.Click += new System.EventHandler(this.btn_Reset_Click);
             // 
-            // lab_Player
-            // 
-            this.lab_Player.AutoSize = true;
-            this.lab_Player.Location = new System.Drawing.Point(660, 457);
-            this.lab_Player.Name = "lab_Player";
-            this.lab_Player.Size = new System.Drawing.Size(122, 41);
-            this.lab_Player.TabIndex = 0;
-            this.lab_Player.Text = "\"Player\"";
-            this.lab_Player.Click += new System.EventHandler(this.lab_Player_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
@@ -160,6 +160,6 @@
         private Button btn_Down;
         private Button btn_Undo;
         private Button btn_Reset;
-        private Label lab_Player;
+        private Label lbl_Player;
     }
 }
