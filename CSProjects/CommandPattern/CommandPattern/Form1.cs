@@ -68,7 +68,7 @@ namespace CommandPattern
         {
             while(stack.Count > 0)
             {
-                Task.Delay(1000); // 2000ms should be 2 seconds
+                //Task.Delay(1000); // 2000ms should be 2 seconds
                 btn_Undo_Click(sender, e);
             }
         }
