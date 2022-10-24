@@ -11,7 +11,7 @@ namespace CommandPattern
         public Form1()
         {
             InitializeComponent();
-            player = (Label)this.Controls[this.Controls.IndexOfKey("lbl_player")];
+            player = this.lbl_Player;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -68,7 +68,7 @@ namespace CommandPattern
         {
             while(stack.Count > 0)
             {
-                Thread.Sleep(2000); // 2000ms should be 2 seconds
+                Task.Delay(1000); // 2000ms should be 2 seconds
                 btn_Undo_Click(sender, e);
             }
         }

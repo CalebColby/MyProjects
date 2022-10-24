@@ -14,17 +14,19 @@ namespace CommandPattern.implementations
         private Color NewColor;
         public void Execute(Label victimRef)
         {
-            throw new NotImplementedException();
-
+            victim = victimRef;
+            Random randy = new Random();
+            NewColor = Color.FromArgb( randy.Next(256), randy.Next(256), randy.Next(256) );
             // get the current color and store it in prevColor so that we can restore it later 
             // during the undo
-
+            PrevColor = victim.ForeColor;
             // Change the color of the square to the newColor.
+            victim.ForeColor = NewColor;
         }
 
         public void Undo()
         {
-            throw new NotImplementedException();
+            victim.ForeColor = PrevColor;
 
             // Change the square's Color back to the value stored in prevColor
         }

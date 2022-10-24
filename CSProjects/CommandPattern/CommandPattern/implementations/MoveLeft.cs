@@ -12,12 +12,14 @@ namespace CommandPattern.implementations
         private Label victim;
         public void Execute(Label victimRef)
         {
-            throw new NotImplementedException();
+            victim = victimRef;
+
+            victim.Left -= 10;
         }
 
         public void Undo()
         {
-            throw new NotImplementedException();
+            victim.Left += 10;
         }
     }
 }
