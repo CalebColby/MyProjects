@@ -1,0 +1,36 @@
+openapi: 3.1.0
+info:
+  title: Students of Neumont
+  description: |
+    This API provides infomation about Students at Neumont
+  version: 1.0.0
+paths:
+
+  # Operations on all students
+  /students:
+    get:
+      summary: Get all students
+      operationId: get-students
+      responses:
+        "200":
+          description: "OK"
+          content: 
+            application/json:
+              schema:
+                $ref: "#/components/schemas/"
+    post:
+    patch:
+
+  # Operations on specific students by identity
+  /students/{studentId}:
+    parameters:
+    get:
+    put:
+    patch:
+    delete:
+
+
+
+components:
+  parameters:
+  schemas:
