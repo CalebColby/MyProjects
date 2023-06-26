@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\SocialPetSite\\PetDAL\\PetDAL.csproj": {}
+    "C:\\My Projects\\Github\\CSProjects\\SocialPetSite\\PetDAL\\PetDAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\SocialPetSite\\PetDAL\\PetDAL.csproj": {
+    "C:\\My Projects\\Github\\CSProjects\\SocialPetSite\\PetDAL\\PetDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\SocialPetSite\\PetDAL\\PetDAL.csproj",
+        "projectUniqueName": "C:\\My Projects\\Github\\CSProjects\\SocialPetSite\\PetDAL\\PetDAL.csproj",
         "projectName": "PetDAL",
-        "projectPath": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\SocialPetSite\\PetDAL\\PetDAL.csproj",
+        "projectPath": "C:\\My Projects\\Github\\CSProjects\\SocialPetSite\\PetDAL\\PetDAL.csproj",
         "packagesPath": "C:\\Users\\Ccolby\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\SocialPetSite\\PetDAL\\obj\\",
+        "outputPath": "C:\\My Projects\\Github\\CSProjects\\SocialPetSite\\PetDAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,7 +59,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -68,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

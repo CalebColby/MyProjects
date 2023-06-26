@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jUjxrhQMQgR/IXkkFQceyqfNHd9IWlDOITK1zSnciM/SVjefI8OCVkSihpbWUUPDoy4aI2wReZ0quV0Pf5udoA==",
+  "dgSpecHash": "Kgr4Q5oRbfjuJkygo1tn9Y7gMDzGurbUvX0cKiDOy0ULzxwFeqBHf6f3gBt+u2SVRjeoWgYn87lN4l87g0+QTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Documents\\My Projects\\Github\\CSProjects\\SocialPetSite\\SocialPetSite\\SocialPetSite.csproj",
+  "projectFilePath": "C:\\My Projects\\Github\\CSProjects\\SocialPetSite\\SocialPetSite\\SocialPetSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ccolby\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Ccolby\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

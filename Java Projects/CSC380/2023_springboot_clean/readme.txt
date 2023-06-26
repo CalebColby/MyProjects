@@ -1,0 +1,2 @@
+docker network create netCSC380
+docker run -p 3306:3306 --name CSC380_IdeasCategoriesDB_mysql --net netCSC380 -e MYSQL_ROOT_PASSWORD=testtest1 -e MYSQL_DATABASE=CSC380_IdeasCategoriesDB -d mysql:latest

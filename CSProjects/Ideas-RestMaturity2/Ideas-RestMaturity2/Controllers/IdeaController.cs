@@ -1,5 +1,6 @@
 using Ideas_RestMaturity2.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
 using System.Net;
 using System.Xml.Linq;
 
@@ -11,15 +12,22 @@ namespace Ideas_RestMaturity2.Controllers
     {
 
         private List<Idea> Ideas = new List<Idea>();
+        private List<Catagory> Catagories = new List<Catagory>();
 
         private readonly ILogger<IdeaController> _logger;
 
         public IdeaController(ILogger<IdeaController> logger)
         {
             _logger = logger;
-            addToIdeas(new Idea("Serious Idea", "An Idea that is Serious"));
-            addToIdeas(new Idea("Silly Idea", "An Idea that is Silly"));
-            addToIdeas(new Idea("Passable Idea", "An Idea that is Passable"));
+
+            addNewCatagory(new Catagory("Red Idea"));
+            addNewCatagory(new Catagory("Blue Idea"));
+            addNewCatagory(new Catagory("Green Idea"));
+            addNewCatagory(new Catagory("Yellow Idea"));
+
+            addToIdeas(new Idea("Serious Idea", "An Idea that is Serious", new Random().Next(Catagories.Count)));
+            addToIdeas(new Idea("Silly Idea", "An Idea that is Silly", new Random().Next(Catagories.Count)));
+            addToIdeas(new Idea("Passable Idea", "An Idea that is Passable", new Random().Next(Catagories.Count)));
         }
 
         [HttpGet(Name = "GetIdeas")]
@@ -29,13 +37,31 @@ namespace Ideas_RestMaturity2.Controllers
         }
 
         [HttpPost(Name = "PostIdeas")]
-        public HttpStatusCode PostIdea(string name, string? description = null)
+        public IActionResult PostIdea(string name, string? description = null)
         {
-            addToIdeas(new Idea(name, description));
-            return HttpStatusCode.OK;
+            addToIdeas(new Idea(name, description, new Random().Next(Catagories.Count)));
+            return Ok();
         }
 
-        [HttpPut]
+        [HttpPost("{name}")]
+        public IActionResult PostCatagory(string name, string? description = null, int dummy = -1)
+        {
+            addNewCatagory(new Catagory(name, description));
+            return Ok();
+        }
+
+        [HttpPatch("{ideaToBeUpdatedId:int}/{CatagoryToBeAddedToId:int}")]
+        public IActionResult PatchIdeaCatagory(int ideaToBeUpdatedId, int CatagoryToBeAddedToId)
+        {
+            if (ideaToBeUpdatedId >= Ideas.Count) return NotFound($"There is new Idea with Id: {ideaToBeUpdatedId}");
+            if (CatagoryToBeAddedToId >= Catagories.Count) return NotFound($"There is no Catagory with Id: {CatagoryToBeAddedToId}");
+
+            Ideas[ideaToBeUpdatedId].CatagoryId = Catagories[CatagoryToBeAddedToId].CatagoryId;
+
+            return Ok(Ideas[ideaToBeUpdatedId]);
+        }
+
+        [HttpPut()]
         public IActionResult PutIdea(int id, string name, string? description = null)
         {
             try
@@ -88,6 +114,13 @@ namespace Ideas_RestMaturity2.Controllers
             newIdea.Id = Ideas.Count;
 
             Ideas.Add(newIdea);
+        }
+
+        private void addNewCatagory(Catagory newCatagory)
+        {
+            newCatagory.CatagoryId = Catagories.Count;
+
+            Catagories.Add(newCatagory);
         }
     }
 }
