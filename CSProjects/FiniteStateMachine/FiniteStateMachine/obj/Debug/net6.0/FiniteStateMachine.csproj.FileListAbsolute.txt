@@ -13,3 +13,18 @@ C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Proj
 C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.pdb
 C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.genruntimeconfig.cache
 C:\Users\Ccolby\OneDrive - Neumont College of Computer Science\Documents\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\ref\FiniteStateMachine.dll
+C:\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\bin\Debug\net6.0\FiniteStateMachine.exe
+C:\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\bin\Debug\net6.0\FiniteStateMachine.deps.json
+C:\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\bin\Debug\net6.0\FiniteStateMachine.runtimeconfig.json
+C:\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\bin\Debug\net6.0\FiniteStateMachine.dll
+C:\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\bin\Debug\net6.0\FiniteStateMachine.pdb
+C:\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.csproj.AssemblyReference.cache
+C:\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.AssemblyInfoInputs.cache
+C:\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.AssemblyInfo.cs
+C:\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.csproj.CoreCompileInputs.cache
+C:\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.dll
+C:\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\refint\FiniteStateMachine.dll
+C:\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.pdb
+C:\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\FiniteStateMachine.genruntimeconfig.cache
+C:\My Projects\Github\CSProjects\FiniteStateMachine\FiniteStateMachine\obj\Debug\net6.0\ref\FiniteStateMachine.dll

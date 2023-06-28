@@ -9,20 +9,21 @@
             {
                 int response = new Random().Next(3);
                 string input = Console.ReadLine();
+                if (input == "EXIT") System.Environment.Exit(0);
                 if (isHigh(input))
                 {
-                    RespondToHi(response);
+                    RespondToHi();
                     wasGreeted = true;
                 }
                 else
                 {
                     if (wasGreeted)
                     {
-                        Respond(response);
+                        Respond();
                     }
                     else
                     {
-                        RespondToNotGreeted(response);
+                        RespondToNotGreeted();
                     }
                 }
             }
@@ -59,17 +60,18 @@
             return state == 'C' || state == 'D';
         }
 
-        private static void RespondToHi(int res)
+        private static void RespondToHi()
         {
-            Console.WriteLine("You said hi");
+            string[] responses = { "You said Hi", "Hello, My Friend", "Hiya!" };
+            Console.WriteLine(responses[new Random().Next(responses.Length)]);
         }
 
-        private static void Respond(int res)
+        private static void Respond()
         {
             Console.WriteLine("You didn't say hi");
         }
 
-        private static void RespondToNotGreeted(int res)
+        private static void RespondToNotGreeted()
         {
             Console.WriteLine("You haven't greeted me");
         }

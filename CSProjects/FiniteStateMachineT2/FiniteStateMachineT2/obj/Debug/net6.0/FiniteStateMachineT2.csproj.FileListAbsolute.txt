@@ -1,0 +1,15 @@
+C:\My Projects\Github\CSProjects\FiniteStateMachineT2\FiniteStateMachineT2\bin\Debug\net6.0\FiniteStateMachineT2.exe
+C:\My Projects\Github\CSProjects\FiniteStateMachineT2\FiniteStateMachineT2\bin\Debug\net6.0\FiniteStateMachineT2.deps.json
+C:\My Projects\Github\CSProjects\FiniteStateMachineT2\FiniteStateMachineT2\bin\Debug\net6.0\FiniteStateMachineT2.runtimeconfig.json
+C:\My Projects\Github\CSProjects\FiniteStateMachineT2\FiniteStateMachineT2\bin\Debug\net6.0\FiniteStateMachineT2.dll
+C:\My Projects\Github\CSProjects\FiniteStateMachineT2\FiniteStateMachineT2\bin\Debug\net6.0\FiniteStateMachineT2.pdb
+C:\My Projects\Github\CSProjects\FiniteStateMachineT2\FiniteStateMachineT2\obj\Debug\net6.0\FiniteStateMachineT2.csproj.AssemblyReference.cache
+C:\My Projects\Github\CSProjects\FiniteStateMachineT2\FiniteStateMachineT2\obj\Debug\net6.0\FiniteStateMachineT2.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Projects\Github\CSProjects\FiniteStateMachineT2\FiniteStateMachineT2\obj\Debug\net6.0\FiniteStateMachineT2.AssemblyInfoInputs.cache
+C:\My Projects\Github\CSProjects\FiniteStateMachineT2\FiniteStateMachineT2\obj\Debug\net6.0\FiniteStateMachineT2.AssemblyInfo.cs
+C:\My Projects\Github\CSProjects\FiniteStateMachineT2\FiniteStateMachineT2\obj\Debug\net6.0\FiniteStateMachineT2.csproj.CoreCompileInputs.cache
+C:\My Projects\Github\CSProjects\FiniteStateMachineT2\FiniteStateMachineT2\obj\Debug\net6.0\FiniteStateMachineT2.dll
+C:\My Projects\Github\CSProjects\FiniteStateMachineT2\FiniteStateMachineT2\obj\Debug\net6.0\refint\FiniteStateMachineT2.dll
+C:\My Projects\Github\CSProjects\FiniteStateMachineT2\FiniteStateMachineT2\obj\Debug\net6.0\FiniteStateMachineT2.pdb
+C:\My Projects\Github\CSProjects\FiniteStateMachineT2\FiniteStateMachineT2\obj\Debug\net6.0\FiniteStateMachineT2.genruntimeconfig.cache
+C:\My Projects\Github\CSProjects\FiniteStateMachineT2\FiniteStateMachineT2\obj\Debug\net6.0\ref\FiniteStateMachineT2.dll
