@@ -297,13 +297,100 @@ namespace NonDeterministicStateMachines
                 switch(state)
                 {
                     case 'A':
+                        if (let == 'H' || let == 'h') state = 'B';
+                        else state = 'Z';
+                        break;
+                    case 'B':
+                        if (let == 'o') state = 'C';
+                        else state = 'Z';
+                        break;
+                    case 'C':
+                        if (let == 'w') state = 'D';
+                        else state = 'Z';
+                        break;
+                    case 'D':
+                        if (let == ' ') state = 'E';
+                        else state = 'Z';
+                        break;
+                    case 'E':
+                        if (let == ' ') state = 'E';
+                        else if (let == 'a') state = 'F';
+                        else state = 'Z';
+                        break;
+                    case 'F':
+                        if (let == 'r') state = 'G';
+                        else state = 'Z';
+                        break;
+                    case 'G':
+                        if (let == 'e') state = 'H';
+                        else state = 'Z';
+                        break;
+                    case 'H':
+                        if (let == ' ') state = 'I';
+                        else state = 'Z';
+                        break;
+                    case 'I':
+                        if (let == ' ') state = 'I';
+                        else if (let == 'y') state = 'J';
+                        else state = 'Z';
+                        break;
+                    case 'J':
+                        if (let == 'o') state = 'K';
+                        else state = 'Z';
+                        break;
+                    case 'K':
+                        if (let == 'u') state = 'L';
+                        else state = 'Z';
+                        break;
+                    case 'L':
+                        if (let == '?') state = 'S';
+                        else if (let == ' ') state = 'M';
+                        else state = 'Z';
+                        break;
+                    case 'M':
+                        if (let == ' ') state = 'M';
+                        else if (let == 'd') state = 'N';
+                        else state = 'Z';
+                        break;
+                    case 'N':
+                        if (let == 'o') state = 'O';
+                        else state = 'Z';
+                        break;
+                    case 'O':
+                        if (let == 'i') state = 'P';
+                        else state = 'Z';
+                        break;
+                    case 'P':
+                        if (let == 'n') state = 'Q';
+                        else state = 'Z';
+                        break;
+                    case 'Q':
+                        if (let == 'g') state = 'R';
+                        else state = 'Z';
+                        break;
+                    case 'R':
+                        if (let == '?') state = 'S';
+                        else state = 'Z';
+                        break;
+                    case 'S':
+                        if (let == 'o')
+                        {
+                            state = 'T';
+                            return true;
+                        }
+                        else state = 'Z';
+                        break;
+                    case 'T': //technically unreachable, but here for completeness anyway
+                        return true;
+                    case 'Z':
+                        if (let == ' ') state = 'A';
                         break;
                     default:
                         throw new ArgumentException($"Unknown State :{state}, Input was {input}");
                 }
                 if (state == 'Z' && let == ' ') state = 'A';
             }
-            return false;
+            return (state == 'S'); //EoS Checker
         }
 
         private static bool CheckHighClass(string input)
@@ -311,16 +398,87 @@ namespace NonDeterministicStateMachines
             char state = 'A';
             foreach (char let in input)
             {
-                switch(state)
+                switch (state)
                 {
                     case 'A':
+                        if (let == 'H' || let == 'h') state = 'B';
+                        else state = 'Z';
+                        break;
+                    case 'B':
+                        if (let == 'o') state = 'C';
+                        else state = 'Z';
+                        break;
+                    case 'C':
+                        if (let == 'w') state = 'D';
+                        else state = 'Z';
+                        break;
+                    case 'D':
+                        if (let == ' ') state = 'E';
+                        else state = 'Z';
+                        break;
+                    case 'E':
+                        if (let == ' ') state = 'E';
+                        else if (let == 'd') state = 'F';
+                        else state = 'Z';
+                        break;
+                    case 'F':
+                        if (let == 'o') state = 'G';
+                        else state = 'Z';
+                        break;
+                    case 'G':
+                        if (let == ' ') state = 'H';
+                        else state = 'Z';
+                        break;
+                    case 'H':
+                        if (let == ' ') state = 'H';
+                        else if (let == 'y') state = 'I';
+                        else state = 'Z';
+                        break;
+                    case 'I':
+                        if (let == 'o') state = 'J';
+                        else state = 'Z';
+                        break;
+                    case 'J':
+                        if (let == 'u') state = 'K';
+                        else state = 'Z';
+                        break;
+                    case 'K':
+                        if (let == ' ') state = 'L';
+                        else state = 'Z';
+                        break;
+                    case 'L':
+                        if (let == ' ') state = 'L';
+                        else if (let == 'd') state = 'M';
+                        else state = 'Z';
+                        break;
+                    case 'M':
+                        if (let == 'o') state = 'N';
+                        else state = 'Z';
+                        break;
+                    case 'N':
+                        if (let == '?') state = 'O';
+                        else state = 'Z';
+                        break;
+                    case 'O':
+                        if (let == ' ') 
+                        { 
+                            state = 'P'; 
+                            return true; 
+                        }
+                        else state = 'Z';
+                        break;
+                    case 'P': // technically unreachable but here for completeness anyway
+                        return true;
+                    case 'Z':
+                        if (let == ' ') state = 'A';
+                        else state = 'Z';
                         break;
                     default:
                         throw new ArgumentException($"Unknown State :{state}, Input was {input}");
                 }
                 if (state == 'Z' && let == ' ') state = 'A';
             }
-            return false;
+            return (state == 'O'); //EoS Checker
         }
 
         private static bool CheckPirate(string input)
@@ -331,13 +489,59 @@ namespace NonDeterministicStateMachines
                 switch(state)
                 {
                     case 'A':
+                        if (let == 'A' || let == 'a') state = 'B';
+                        else state = 'Z';
                         break;
+                    case 'B':
+                        if (let == 'h') state = 'C';
+                        else state = 'Z';
+                        break;
+                    case 'C':
+                        if (let == 'o') state = 'D';
+                        else state = 'Z';
+                        break;
+                    case 'D':
+                        if (let == 'y') state = 'E';
+                        else state = 'Z';
+                        break;
+                    case 'E':
+                        if (let == ' ') state = 'F';
+                        else state = 'Z';
+                        break;
+                    case 'F':
+                        if (let == ' ') state = 'F';
+                        else if (let == 'M' || let == 'm') state = 'G';
+                        else state = 'Z';
+                        break;
+                    case 'G':
+                        if (let == 'a') state = 'H';
+                        else state = 'Z';
+                        break;
+                    case 'H':
+                        if (let == 't') state = 'I';
+                        else state = 'Z';
+                        break;
+                    case 'I':
+                        if (let == 'e') state = 'J';
+                        else state = 'Z';
+                        break;
+                    case 'J':
+                        if (let == ' ') 
+                        { 
+                            state = 'K';
+                            return true;
+                        }
+                        else state = 'Z';
+                        break;
+                    case 'K': // technically unreachable but here for completeness anyway
+                        return true;
+                    case 'Z':
                     default:
                         throw new ArgumentException($"Unknown State :{state}, Input was {input}");
                 }
                 if (state == 'Z' && let == ' ') state = 'A';
             }
-            return false;
+            return (state == 'J'); //EoS Checker
         }
 
         private static void Respond(string[] Responses)
