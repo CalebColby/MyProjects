@@ -1,0 +1,15 @@
+C:\My Projects\Github\CSProjects\NonDeterministicStateMachines\NonDeterministicStateMachines\bin\Debug\net6.0\NonDeterministicStateMachines.exe
+C:\My Projects\Github\CSProjects\NonDeterministicStateMachines\NonDeterministicStateMachines\bin\Debug\net6.0\NonDeterministicStateMachines.deps.json
+C:\My Projects\Github\CSProjects\NonDeterministicStateMachines\NonDeterministicStateMachines\bin\Debug\net6.0\NonDeterministicStateMachines.runtimeconfig.json
+C:\My Projects\Github\CSProjects\NonDeterministicStateMachines\NonDeterministicStateMachines\bin\Debug\net6.0\NonDeterministicStateMachines.dll
+C:\My Projects\Github\CSProjects\NonDeterministicStateMachines\NonDeterministicStateMachines\bin\Debug\net6.0\NonDeterministicStateMachines.pdb
+C:\My Projects\Github\CSProjects\NonDeterministicStateMachines\NonDeterministicStateMachines\obj\Debug\net6.0\NonDeterministicStateMachines.csproj.AssemblyReference.cache
+C:\My Projects\Github\CSProjects\NonDeterministicStateMachines\NonDeterministicStateMachines\obj\Debug\net6.0\NonDeterministicStateMachines.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Projects\Github\CSProjects\NonDeterministicStateMachines\NonDeterministicStateMachines\obj\Debug\net6.0\NonDeterministicStateMachines.AssemblyInfoInputs.cache
+C:\My Projects\Github\CSProjects\NonDeterministicStateMachines\NonDeterministicStateMachines\obj\Debug\net6.0\NonDeterministicStateMachines.AssemblyInfo.cs
+C:\My Projects\Github\CSProjects\NonDeterministicStateMachines\NonDeterministicStateMachines\obj\Debug\net6.0\NonDeterministicStateMachines.csproj.CoreCompileInputs.cache
+C:\My Projects\Github\CSProjects\NonDeterministicStateMachines\NonDeterministicStateMachines\obj\Debug\net6.0\NonDeterministicStateMachines.dll
+C:\My Projects\Github\CSProjects\NonDeterministicStateMachines\NonDeterministicStateMachines\obj\Debug\net6.0\refint\NonDeterministicStateMachines.dll
+C:\My Projects\Github\CSProjects\NonDeterministicStateMachines\NonDeterministicStateMachines\obj\Debug\net6.0\NonDeterministicStateMachines.pdb
+C:\My Projects\Github\CSProjects\NonDeterministicStateMachines\NonDeterministicStateMachines\obj\Debug\net6.0\NonDeterministicStateMachines.genruntimeconfig.cache
+C:\My Projects\Github\CSProjects\NonDeterministicStateMachines\NonDeterministicStateMachines\obj\Debug\net6.0\ref\NonDeterministicStateMachines.dll
