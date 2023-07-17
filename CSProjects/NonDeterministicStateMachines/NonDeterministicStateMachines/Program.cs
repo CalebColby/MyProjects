@@ -536,6 +536,8 @@ namespace NonDeterministicStateMachines
                     case 'K': // technically unreachable but here for completeness anyway
                         return true;
                     case 'Z':
+                        if (let == ' ') state = 'A';
+                        break;
                     default:
                         throw new ArgumentException($"Unknown State :{state}, Input was {input}");
                 }
