@@ -1,0 +1,15 @@
+C:\My Projects\Github\CSProjects\TuringMachine\TuringMachine\bin\Debug\net6.0\TuringMachine.exe
+C:\My Projects\Github\CSProjects\TuringMachine\TuringMachine\bin\Debug\net6.0\TuringMachine.deps.json
+C:\My Projects\Github\CSProjects\TuringMachine\TuringMachine\bin\Debug\net6.0\TuringMachine.runtimeconfig.json
+C:\My Projects\Github\CSProjects\TuringMachine\TuringMachine\bin\Debug\net6.0\TuringMachine.dll
+C:\My Projects\Github\CSProjects\TuringMachine\TuringMachine\bin\Debug\net6.0\TuringMachine.pdb
+C:\My Projects\Github\CSProjects\TuringMachine\TuringMachine\obj\Debug\net6.0\TuringMachine.csproj.AssemblyReference.cache
+C:\My Projects\Github\CSProjects\TuringMachine\TuringMachine\obj\Debug\net6.0\TuringMachine.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Projects\Github\CSProjects\TuringMachine\TuringMachine\obj\Debug\net6.0\TuringMachine.AssemblyInfoInputs.cache
+C:\My Projects\Github\CSProjects\TuringMachine\TuringMachine\obj\Debug\net6.0\TuringMachine.AssemblyInfo.cs
+C:\My Projects\Github\CSProjects\TuringMachine\TuringMachine\obj\Debug\net6.0\TuringMachine.csproj.CoreCompileInputs.cache
+C:\My Projects\Github\CSProjects\TuringMachine\TuringMachine\obj\Debug\net6.0\TuringMachine.dll
+C:\My Projects\Github\CSProjects\TuringMachine\TuringMachine\obj\Debug\net6.0\refint\TuringMachine.dll
+C:\My Projects\Github\CSProjects\TuringMachine\TuringMachine\obj\Debug\net6.0\TuringMachine.pdb
+C:\My Projects\Github\CSProjects\TuringMachine\TuringMachine\obj\Debug\net6.0\TuringMachine.genruntimeconfig.cache
+C:\My Projects\Github\CSProjects\TuringMachine\TuringMachine\obj\Debug\net6.0\ref\TuringMachine.dll

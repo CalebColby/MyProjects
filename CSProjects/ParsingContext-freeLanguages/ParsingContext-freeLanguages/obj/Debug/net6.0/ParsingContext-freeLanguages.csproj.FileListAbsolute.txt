@@ -1,0 +1,15 @@
+C:\My Projects\Github\CSProjects\ParsingContext-freeLanguages\ParsingContext-freeLanguages\bin\Debug\net6.0\ParsingContext-freeLanguages.exe
+C:\My Projects\Github\CSProjects\ParsingContext-freeLanguages\ParsingContext-freeLanguages\bin\Debug\net6.0\ParsingContext-freeLanguages.deps.json
+C:\My Projects\Github\CSProjects\ParsingContext-freeLanguages\ParsingContext-freeLanguages\bin\Debug\net6.0\ParsingContext-freeLanguages.runtimeconfig.json
+C:\My Projects\Github\CSProjects\ParsingContext-freeLanguages\ParsingContext-freeLanguages\bin\Debug\net6.0\ParsingContext-freeLanguages.dll
+C:\My Projects\Github\CSProjects\ParsingContext-freeLanguages\ParsingContext-freeLanguages\bin\Debug\net6.0\ParsingContext-freeLanguages.pdb
+C:\My Projects\Github\CSProjects\ParsingContext-freeLanguages\ParsingContext-freeLanguages\obj\Debug\net6.0\ParsingContext-freeLanguages.csproj.AssemblyReference.cache
+C:\My Projects\Github\CSProjects\ParsingContext-freeLanguages\ParsingContext-freeLanguages\obj\Debug\net6.0\ParsingContext-freeLanguages.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Projects\Github\CSProjects\ParsingContext-freeLanguages\ParsingContext-freeLanguages\obj\Debug\net6.0\ParsingContext-freeLanguages.AssemblyInfoInputs.cache
+C:\My Projects\Github\CSProjects\ParsingContext-freeLanguages\ParsingContext-freeLanguages\obj\Debug\net6.0\ParsingContext-freeLanguages.AssemblyInfo.cs
+C:\My Projects\Github\CSProjects\ParsingContext-freeLanguages\ParsingContext-freeLanguages\obj\Debug\net6.0\ParsingContext-freeLanguages.csproj.CoreCompileInputs.cache
+C:\My Projects\Github\CSProjects\ParsingContext-freeLanguages\ParsingContext-freeLanguages\obj\Debug\net6.0\ParsingContext-freeLanguages.dll
+C:\My Projects\Github\CSProjects\ParsingContext-freeLanguages\ParsingContext-freeLanguages\obj\Debug\net6.0\refint\ParsingContext-freeLanguages.dll
+C:\My Projects\Github\CSProjects\ParsingContext-freeLanguages\ParsingContext-freeLanguages\obj\Debug\net6.0\ParsingContext-freeLanguages.pdb
+C:\My Projects\Github\CSProjects\ParsingContext-freeLanguages\ParsingContext-freeLanguages\obj\Debug\net6.0\ParsingContext-freeLanguages.genruntimeconfig.cache
+C:\My Projects\Github\CSProjects\ParsingContext-freeLanguages\ParsingContext-freeLanguages\obj\Debug\net6.0\ref\ParsingContext-freeLanguages.dll
