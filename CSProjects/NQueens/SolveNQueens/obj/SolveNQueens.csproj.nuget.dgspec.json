@@ -1,74 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Desktop\\MyProjects\\GitHub\\NQueens\\SolveNQueens\\SolveNQueens.csproj": {}
+    "C:\\My Projects\\Github\\CSProjects\\NQueens\\SolveNQueens\\SolveNQueens.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Desktop\\MyProjects\\GitHub\\CSProjects\\Util\\Util.csproj": {
+    "C:\\My Projects\\Github\\CSProjects\\NQueens\\SolveNQueens\\SolveNQueens.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Desktop\\MyProjects\\GitHub\\CSProjects\\Util\\Util.csproj",
-        "projectName": "Util",
-        "projectPath": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Desktop\\MyProjects\\GitHub\\CSProjects\\Util\\Util.csproj",
-        "packagesPath": "C:\\Users\\Ccolby\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Desktop\\MyProjects\\GitHub\\CSProjects\\Util\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Ccolby\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Desktop\\MyProjects\\GitHub\\NQueens\\SolveNQueens\\SolveNQueens.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Desktop\\MyProjects\\GitHub\\NQueens\\SolveNQueens\\SolveNQueens.csproj",
+        "projectUniqueName": "C:\\My Projects\\Github\\CSProjects\\NQueens\\SolveNQueens\\SolveNQueens.csproj",
         "projectName": "SolveNQueens",
-        "projectPath": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Desktop\\MyProjects\\GitHub\\NQueens\\SolveNQueens\\SolveNQueens.csproj",
+        "projectPath": "C:\\My Projects\\Github\\CSProjects\\NQueens\\SolveNQueens\\SolveNQueens.csproj",
         "packagesPath": "C:\\Users\\Ccolby\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Desktop\\MyProjects\\GitHub\\NQueens\\SolveNQueens\\obj\\",
+        "outputPath": "C:\\My Projects\\Github\\CSProjects\\NQueens\\SolveNQueens\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Ccolby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Desktop\\MyProjects\\GitHub\\CSProjects\\Util\\Util.csproj": {
-                "projectPath": "C:\\Users\\Ccolby\\OneDrive - Neumont College of Computer Science\\Desktop\\MyProjects\\GitHub\\CSProjects\\Util\\Util.csproj"
+              "C:\\My Projects\\Github\\CSProjects\\CSProjects\\Util\\Util.csproj": {
+                "projectPath": "C:\\My Projects\\Github\\CSProjects\\CSProjects\\Util\\Util.csproj"
               }
             }
           }
@@ -103,7 +53,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -112,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }
